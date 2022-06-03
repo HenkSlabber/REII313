@@ -1,0 +1,26 @@
+debugLabel = new QLabel(this);
+    debugLabel->setGeometry(10, 550, 400, 200);
+    debugLabel->setAlignment(Qt::AlignTop);
+    debugLabel->show();
+
+    winLabel = new QLabel(this);
+    winLabel->setGeometry(0, 0, width(), height());
+    winLabel->setStyleSheet("font-size: 64px");
+    winLabel->setAlignment(Qt::AlignCenter);
+    winLabel->setText("Player Wins");
+    winLabel->hide();
+
+    loseLabel = new QLabel(this);
+    loseLabel->setGeometry(0, 0, width(), height());
+    loseLabel->setStyleSheet("font-size: 64px");
+    loseLabel->setAlignment(Qt::AlignCenter);
+    loseLabel->setText("Computer Wins");
+    loseLabel->hide();
+
+    mustPickUp = false;
+    computerMustPickUp = false;
+    initCards();
+    shuffleDeck();
+    dealCards();
+    //showDeck();
+    showArrangeHands();
