@@ -21,3 +21,13 @@ HEADERS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+FORMS += \
+    connectpage.ui \
+    firstpage.ui \
+    halloffamepage.ui \
+    hostagamepage.ui \
+    lobbypage.ui \
+    multiplayerpage.ui \
+    settings.ui \
+    singleplayerpage.ui
