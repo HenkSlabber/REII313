@@ -11,7 +11,13 @@ CONFIG += c++11
 SOURCES += \
     card.cpp \
     firstpage.cpp \
+    halloffamepage.cpp \
+    hostagamepage.cpp \
+    lobbypage.cpp \
     main.cpp \
+    multiplayerpage.cpp \
+    settings.cpp \
+    singleplayerpage.cpp \
     unolite.cpp
 
 HEADERS += \
@@ -22,7 +28,7 @@ HEADERS += \
     lobbypage.h \
     multiplayerpage.h \
     settings.h \
-    singleplayer.h \
+    singleplayerpage.h \
     unolite.h
 
 # Default rules for deployment.
