@@ -1,0 +1,4 @@
+#ifndef HALLOFFAMEPAGE_H
+#define HALLOFFAMEPAGE_H
+
+#endif // HALLOFFAMEPAGE_H

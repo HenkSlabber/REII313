@@ -1,0 +1,4 @@
+#ifndef HOSTGAMEPAGE_H
+#define HOSTGAMEPAGE_H
+
+#endif // HOSTGAMEPAGE_H

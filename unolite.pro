@@ -10,11 +10,19 @@ CONFIG += c++11
 
 SOURCES += \
     card.cpp \
+    firstpage.cpp \
     main.cpp \
     unolite.cpp
 
 HEADERS += \
     card.h \
+    firstpage.h \
+    halloffamepage.h \
+    hostgamepage.h \
+    lobbypage.h \
+    multiplayerpage.h \
+    settings.h \
+    singleplayer.h \
     unolite.h
 
 # Default rules for deployment.
@@ -23,7 +31,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 FORMS += \
-    connectpage.ui \
     firstpage.ui \
     halloffamepage.ui \
     hostagamepage.ui \
@@ -31,3 +38,5 @@ FORMS += \
     multiplayerpage.ui \
     settings.ui \
     singleplayerpage.ui
+
+DISTFILES +=
