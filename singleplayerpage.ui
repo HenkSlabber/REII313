@@ -1,10 +1,8 @@
-<ui version="4.0" >
- <author></author>
- <comment></comment>
- <exportmacro></exportmacro>
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>Form</class>
- <widget class="QWidget" name="Form" >
-  <property name="geometry" >
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
@@ -12,11 +10,71 @@
     <height>300</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>Form</string>
   </property>
+  <widget class="QLabel" name="playerdifficulty">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>35</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Player difficulty</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>79</y>
+     <width>321</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="AIplayer">
+      <property name="text">
+       <string>AI Difficulty</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="DufficultySelect"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>149</x>
+     <y>209</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="StartGameBtn">
+      <property name="text">
+       <string>Start Game</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="singleplayerpageBackBtn">
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
- <pixmapfunction></pixmapfunction>
+ <resources/>
  <connections/>
 </ui>
-

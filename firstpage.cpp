@@ -1,12 +1,9 @@
 #include "firstpage.h"
 
 firstpage::firstpage(QWidget *parent)
-    : QMainWindow(parent)
+    : QWidget(parent)
 {
-
+    ui.setupUi(this);
 }
 
-firstpage::~firstpage()
-{
-}
 

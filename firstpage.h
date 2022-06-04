@@ -2,18 +2,19 @@
 #define FIRSTPAGE_H
 
 #include <QMainWindow>
+#include <QtWidgets>
+#include "ui_firstpage.h"
 
-class firstpage : public QMainWindow
+class firstpage : public QWidget
 {
     Q_OBJECT
 
 public:
-    firstpage(QWidget *parent = nullptr);
-    ~firstpage();
+     explicit firstpage(QWidget *parent = nullptr);
 
 
 private:
-
+    Ui::FirstPage ui;
 
 private slots:
 
