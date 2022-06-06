@@ -9,17 +9,32 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    form.cpp \
+    halloffame.cpp \
+    hostgamepage.cpp \
+    lobbypage.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    multiplayerpage.cpp \
+    settings.cpp \
+    singleplayerpage.cpp
 
 HEADERS += \
-    form.h \
-    mainwindow.h
+    halloffame.h \
+    hostgamepage.h \
+    lobbypage.h \
+    mainwindow.h \
+    multiplayerpage.h \
+    settings.h \
+    singleplayerpage.h
 
 FORMS += \
-    form.ui \
-    mainwindow.ui
+    halloffame.ui \
+    hostgamepage.ui \
+    lobbypage.ui \
+    mainwindow.ui \
+    multiplayerpage.ui \
+    settings.ui \
+    singleplayerpage.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
