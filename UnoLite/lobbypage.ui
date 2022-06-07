@@ -24,16 +24,6 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="Waiting">
-      <property name="frameShape">
-       <enum>QFrame::HLine</enum>
-      </property>
-      <property name="text">
-       <string>Waiting for host to start game...</string>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QProgressBar" name="progressBar">
       <property name="value">
        <number>24</number>

@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "form.h"
+#include "singleplayerpage.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,10 +17,18 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_SinglePlayerBtn_clicked();
+
+    void on_MultiplayerBtn_clicked();
+
+    void on_HallOfFameBtn_clicked();
+
+    void on_SettingsBtn_clicked();
+
+    void on_ExitBtn_clicked();
 
 private:
     Ui::MainWindow *ui;
-    Form *secondpage;
+    singleplayerpage *SinglePlayerPage;
 };
 #endif // MAINWINDOW_H
