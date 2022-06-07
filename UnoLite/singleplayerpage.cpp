@@ -15,9 +15,5 @@ singleplayerpage::~singleplayerpage()
     delete ui;
 }
 
-void singleplayerpage::on_singleplayerpageBackBtn_clicked()
-{
-    mainwindow = new MainWindow();
-    mainwindow->show();
-}
+
 

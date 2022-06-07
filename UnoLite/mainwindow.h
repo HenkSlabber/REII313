@@ -32,9 +32,14 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
     singleplayerpage *SinglePlayerPage;
+
     settings *Settings;
+
     halloffame *HallOfFame;
+
     multiplayerpage *MultiPlayerPage;
+
 };
 #endif // MAINWINDOW_H
