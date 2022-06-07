@@ -3,6 +3,9 @@
 
 #include <QMainWindow>
 #include "singleplayerpage.h"
+#include "settings.h"
+#include "multiplayerpage.h"
+#include "halloffame.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -30,5 +33,8 @@ private slots:
 private:
     Ui::MainWindow *ui;
     singleplayerpage *SinglePlayerPage;
+    settings *Settings;
+    halloffame *HallOfFame;
+    multiplayerpage *MultiPlayerPage;
 };
 #endif // MAINWINDOW_H

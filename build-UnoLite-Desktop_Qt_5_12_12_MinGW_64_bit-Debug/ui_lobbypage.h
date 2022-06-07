@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QLabel>
 #include <QtWidgets/QProgressBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QVBoxLayout>
@@ -24,7 +23,6 @@ class Ui_lobbypage
 public:
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
-    QLabel *Waiting;
     QProgressBar *progressBar;
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
@@ -41,12 +39,6 @@ public:
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        Waiting = new QLabel(verticalLayoutWidget);
-        Waiting->setObjectName(QString::fromUtf8("Waiting"));
-        Waiting->setFrameShape(QFrame::HLine);
-
-        verticalLayout->addWidget(Waiting);
-
         progressBar = new QProgressBar(verticalLayoutWidget);
         progressBar->setObjectName(QString::fromUtf8("progressBar"));
         progressBar->setValue(24);
@@ -73,7 +65,6 @@ public:
     void retranslateUi(QWidget *lobbypage)
     {
         lobbypage->setWindowTitle(QApplication::translate("lobbypage", "Form", nullptr));
-        Waiting->setText(QApplication::translate("lobbypage", "Waiting for host to start game...", nullptr));
         LeaveGameBtn->setText(QApplication::translate("lobbypage", "Leave Game", nullptr));
     } // retranslateUi
 
