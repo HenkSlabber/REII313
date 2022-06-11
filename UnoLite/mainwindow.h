@@ -6,13 +6,19 @@
 #include "halloffame.h"
 #include "multiplayerpage.h"
 #include "singleplayerpage.h"
+#include "popup.h"
+#include <QString>
+
+
 
 namespace Ui {
 class MainWindow;
 }
 
+
 class MainWindow : public QWidget
 {
+
     Q_OBJECT
 
 public:
@@ -36,6 +42,7 @@ private:
     halloffame *HallOfFame;
     multiplayerpage *MultiPlayerPage;
     singleplayerpage *SinglePlayerPage;
+    Popup *PopUp;
 };
 
 #endif // MAINWINDOW_H

@@ -15,15 +15,18 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     multiplayerpage.cpp \
+    popup.cpp \
     settings.cpp \
     singleplayerpage.cpp
 
 HEADERS += \
+    GlobalVariables.h \
     halloffame.h \
     hostgamepage.h \
     lobbypage.h \
     mainwindow.h \
     multiplayerpage.h \
+    popup.h \
     settings.h \
     singleplayerpage.h
 
@@ -33,6 +36,7 @@ FORMS += \
     lobbypage.ui \
     mainwindow.ui \
     multiplayerpage.ui \
+    popup.ui \
     settings.ui \
     singleplayerpage.ui
 
