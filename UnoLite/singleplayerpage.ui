@@ -13,19 +13,6 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="playerdifficulty">
-   <property name="geometry">
-    <rect>
-     <x>81</x>
-     <y>36</y>
-     <width>161</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Player difficulty</string>
-   </property>
-  </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
@@ -51,6 +38,19 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QLabel" name="playerdifficulty">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>36</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Player difficulty</string>
+   </property>
   </widget>
   <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">

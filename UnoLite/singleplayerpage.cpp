@@ -8,6 +8,7 @@ singleplayerpage::singleplayerpage(QWidget *parent) :
     ui(new Ui::singleplayerpage)
 {
     ui->setupUi(this);
+   // QMainWindow().hide();
 }
 
 singleplayerpage::~singleplayerpage()
@@ -16,4 +17,15 @@ singleplayerpage::~singleplayerpage()
 }
 
 
+void singleplayerpage::on_singleplayerpageBackBtn_clicked()
+{
+    //this->destroy();
+
+    MainWindow w;
+    w.show();
+    this->hide();
+
+
+
+}
 

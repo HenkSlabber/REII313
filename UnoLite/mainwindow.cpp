@@ -17,31 +17,36 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_SinglePlayerBtn_clicked()
-{
-    SinglePlayerPage = new singleplayerpage();
-    SinglePlayerPage->show();
-}
-
 void MainWindow::on_MultiplayerBtn_clicked()
 {
     MultiPlayerPage = new multiplayerpage();
     MultiPlayerPage->show();
+    this->hide();
 }
 
 void MainWindow::on_HallOfFameBtn_clicked()
 {
     HallOfFame = new halloffame();
     HallOfFame->show();
+    this->hide();
 }
 
 void MainWindow::on_SettingsBtn_clicked()
 {
     Settings = new settings();
     Settings->show();
+    this->hide();
 }
 
 void MainWindow::on_ExitBtn_clicked()
 {
-
+   delete ui;
 }
+
+void MainWindow::on_SinglePlayerBtn_clicked()
+{
+    SinglePlayerPage = new singleplayerpage();
+    SinglePlayerPage->show();
+    this->hide();
+}
+

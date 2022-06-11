@@ -2,7 +2,8 @@
 #define SINGLEPLAYERPAGE_H
 
 #include <QWidget>
-#include "mainwindow.h"
+//#include <mainwindow.h>
+#include <QMainWindow>
 
 namespace Ui {
 class singleplayerpage;
@@ -21,7 +22,8 @@ private slots:
 
 private:
     Ui::singleplayerpage *ui;
-
+   // MainWindow *mainwindow;
+  // singelplayerpage *closewindow;
 };
 
 #endif // SINGLEPLAYERPAGE_H

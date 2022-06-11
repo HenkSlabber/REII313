@@ -23,11 +23,11 @@ QT_BEGIN_NAMESPACE
 class Ui_singleplayerpage
 {
 public:
-    QLabel *playerdifficulty;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
     QPushButton *StartGameBtn;
     QPushButton *singleplayerpageBackBtn;
+    QLabel *playerdifficulty;
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
     QLabel *AIplayer;
@@ -38,9 +38,6 @@ public:
         if (singleplayerpage->objectName().isEmpty())
             singleplayerpage->setObjectName(QString::fromUtf8("singleplayerpage"));
         singleplayerpage->resize(400, 300);
-        playerdifficulty = new QLabel(singleplayerpage);
-        playerdifficulty->setObjectName(QString::fromUtf8("playerdifficulty"));
-        playerdifficulty->setGeometry(QRect(81, 36, 161, 31));
         verticalLayoutWidget = new QWidget(singleplayerpage);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
         verticalLayoutWidget->setGeometry(QRect(130, 210, 101, 61));
@@ -57,6 +54,9 @@ public:
 
         verticalLayout->addWidget(singleplayerpageBackBtn);
 
+        playerdifficulty = new QLabel(singleplayerpage);
+        playerdifficulty->setObjectName(QString::fromUtf8("playerdifficulty"));
+        playerdifficulty->setGeometry(QRect(81, 36, 161, 31));
         horizontalLayoutWidget = new QWidget(singleplayerpage);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
         horizontalLayoutWidget->setGeometry(QRect(20, 80, 321, 91));
@@ -82,9 +82,9 @@ public:
     void retranslateUi(QWidget *singleplayerpage)
     {
         singleplayerpage->setWindowTitle(QApplication::translate("singleplayerpage", "Form", nullptr));
-        playerdifficulty->setText(QApplication::translate("singleplayerpage", "Player difficulty", nullptr));
         StartGameBtn->setText(QApplication::translate("singleplayerpage", "Start Game", nullptr));
         singleplayerpageBackBtn->setText(QApplication::translate("singleplayerpage", "Back", nullptr));
+        playerdifficulty->setText(QApplication::translate("singleplayerpage", "Player difficulty", nullptr));
         AIplayer->setText(QApplication::translate("singleplayerpage", "AI Difficulty", nullptr));
     } // retranslateUi
 

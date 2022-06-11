@@ -19,6 +19,7 @@ void multiplayerpage::on_HostBtn_clicked()
 {
     HostGamePage = new hostgamepage();
     HostGamePage->show();
+    this->hide();
 }
 
 
@@ -26,5 +27,6 @@ void multiplayerpage::on_ConnectBtn_clicked()
 {
     LobbyPage = new lobbypage();
     LobbyPage->show();
+    this->hide();
 }
 

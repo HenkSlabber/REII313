@@ -574,7 +574,6 @@ debug/moc_mainwindow.cpp: ../UnoLite/mainwindow.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
 		../UnoLite/singleplayerpage.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QWidget \
-		../UnoLite/mainwindow.h \
 		../UnoLite/settings.h \
 		../UnoLite/multiplayerpage.h \
 		../UnoLite/hostgamepage.h \
@@ -906,17 +905,6 @@ debug/moc_singleplayerpage.cpp: ../UnoLite/singleplayerpage.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
-		../UnoLite/mainwindow.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QMainWindow \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qmainwindow.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
-		../UnoLite/singleplayerpage.h \
-		../UnoLite/settings.h \
-		../UnoLite/multiplayerpage.h \
-		../UnoLite/hostgamepage.h \
-		../UnoLite/lobbypage.h \
-		../UnoLite/halloffame.h \
 		debug/moc_predefs.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/bin/moc.exe
 	C:\Qt\Qt5.12.12\5.12.12\mingw73_64\bin\moc.exe $(DEFINES) --include C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_5_12_12_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/win32-g++ -IC:/Users/User/Documents/GitHub/REII313/UnoLite -IC:/Qt/Qt5.12.12/5.12.12/mingw73_64/include -IC:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets -IC:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui -IC:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtANGLE -IC:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore -I. -IC:/Qt/Qt5.12.12/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -IC:/Qt/Qt5.12.12/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt5.12.12/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -IC:/Qt/Qt5.12.12/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -IC:/Qt/Qt5.12.12/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -IC:/Qt/Qt5.12.12/Tools/mingw730_64/x86_64-w64-mingw32/include ..\UnoLite\singleplayerpage.h -o debug\moc_singleplayerpage.cpp
@@ -1072,7 +1060,45 @@ debug/halloffame.o: ../UnoLite/halloffame.cpp ../UnoLite/halloffame.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
-		ui_halloffame.h
+		ui_halloffame.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGridLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHeaderView \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qheaderview.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QTableWidget \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtablewidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtableview.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\halloffame.o ..\UnoLite\halloffame.cpp
 
 debug/hostgamepage.o: ../UnoLite/hostgamepage.cpp ../UnoLite/hostgamepage.h \
@@ -1179,7 +1205,45 @@ debug/hostgamepage.o: ../UnoLite/hostgamepage.cpp ../UnoLite/hostgamepage.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
-		ui_hostgamepage.h
+		ui_hostgamepage.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QColumnView \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qcolumnview.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGridLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QLabel \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlabel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\hostgamepage.o ..\UnoLite\hostgamepage.cpp
 
 debug/lobbypage.o: ../UnoLite/lobbypage.cpp ../UnoLite/lobbypage.h \
@@ -1286,7 +1350,27 @@ debug/lobbypage.o: ../UnoLite/lobbypage.cpp ../UnoLite/lobbypage.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
-		ui_lobbypage.h
+		ui_lobbypage.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QProgressBar \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qprogressbar.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\lobbypage.o ..\UnoLite\lobbypage.cpp
 
 debug/main.o: ../UnoLite/main.cpp ../UnoLite/mainwindow.h \
@@ -1526,7 +1610,30 @@ debug/mainwindow.o: ../UnoLite/mainwindow.cpp ../UnoLite/mainwindow.h \
 		../UnoLite/hostgamepage.h \
 		../UnoLite/lobbypage.h \
 		../UnoLite/halloffame.h \
-		ui_mainwindow.h
+		ui_mainwindow.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QMenuBar \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qmenubar.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qmenu.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qaction.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qactiongroup.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QStatusBar \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstatusbar.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\UnoLite\mainwindow.cpp
 
 debug/multiplayerpage.o: ../UnoLite/multiplayerpage.cpp ../UnoLite/multiplayerpage.h \
@@ -1635,7 +1742,24 @@ debug/multiplayerpage.o: ../UnoLite/multiplayerpage.cpp ../UnoLite/multiplayerpa
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
 		../UnoLite/hostgamepage.h \
 		../UnoLite/lobbypage.h \
-		ui_multiplayerpage.h
+		ui_multiplayerpage.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\multiplayerpage.o ..\UnoLite\multiplayerpage.cpp
 
 debug/settings.o: ../UnoLite/settings.cpp ../UnoLite/settings.h \
@@ -1742,7 +1866,43 @@ debug/settings.o: ../UnoLite/settings.cpp ../UnoLite/settings.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
-		ui_settings.h
+		ui_settings.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGridLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QLabel \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlabel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPlainTextEdit \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qplaintextedit.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextdocument.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextoption.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextcursor.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextformat.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qpen.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qabstracttextdocumentlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qglyphrun.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qrawfont.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qfontdatabase.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\settings.o ..\UnoLite\settings.cpp
 
 debug/singleplayerpage.o: ../UnoLite/singleplayerpage.cpp ../UnoLite/singleplayerpage.h \
@@ -1849,17 +2009,42 @@ debug/singleplayerpage.o: ../UnoLite/singleplayerpage.cpp ../UnoLite/singleplaye
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
-		../UnoLite/mainwindow.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QMainWindow \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qmainwindow.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
+		ui_singleplayerpage.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QComboBox \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qcombobox.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
-		../UnoLite/settings.h \
-		../UnoLite/multiplayerpage.h \
-		../UnoLite/hostgamepage.h \
-		../UnoLite/lobbypage.h \
-		../UnoLite/halloffame.h \
-		ui_singleplayerpage.h
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QLabel \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlabel.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\singleplayerpage.o ..\UnoLite\singleplayerpage.cpp
 
 debug/moc_halloffame.o: debug/moc_halloffame.cpp 

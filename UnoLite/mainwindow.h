@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "singleplayerpage.h"
+#include <singleplayerpage.h>
 #include "settings.h"
 #include "multiplayerpage.h"
 #include "halloffame.h"
@@ -32,14 +32,9 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-
-    singleplayerpage *SinglePlayerPage;
-
     settings *Settings;
-
     halloffame *HallOfFame;
-
     multiplayerpage *MultiPlayerPage;
-
+    singleplayerpage *SinglePlayerPage;
 };
 #endif // MAINWINDOW_H
