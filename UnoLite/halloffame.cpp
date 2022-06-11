@@ -15,7 +15,7 @@ halloffame::~halloffame()
 
 void halloffame::on_HallOfFameBackBtn_clicked()
 {
-    this->close();
     firstpage2 = new FirstPage();
     firstpage2->show();
+    this->close();
 }
