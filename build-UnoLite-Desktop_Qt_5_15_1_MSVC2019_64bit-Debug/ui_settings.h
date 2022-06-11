@@ -29,7 +29,7 @@ public:
     QPlainTextEdit *UpdateNameTextEdit;
     QHBoxLayout *horizontalLayout_2;
     QLabel *YourNameIs_2;
-    QLabel *CurrentName_2;
+    QLabel *CurrentName;
     QPushButton *UpdateNameBtn;
     QWidget *gridLayoutWidget;
     QGridLayout *gridLayout;
@@ -58,10 +58,10 @@ public:
 
         horizontalLayout_2->addWidget(YourNameIs_2);
 
-        CurrentName_2 = new QLabel(verticalLayoutWidget);
-        CurrentName_2->setObjectName(QString::fromUtf8("CurrentName_2"));
+        CurrentName = new QLabel(verticalLayoutWidget);
+        CurrentName->setObjectName(QString::fromUtf8("CurrentName"));
 
-        horizontalLayout_2->addWidget(CurrentName_2);
+        horizontalLayout_2->addWidget(CurrentName);
 
 
         verticalLayout->addLayout(horizontalLayout_2);
@@ -92,7 +92,7 @@ public:
     {
         settings->setWindowTitle(QCoreApplication::translate("settings", "Form", nullptr));
         YourNameIs_2->setText(QCoreApplication::translate("settings", "Your Name Is:  ", nullptr));
-        CurrentName_2->setText(QString());
+        CurrentName->setText(QString());
         UpdateNameBtn->setText(QCoreApplication::translate("settings", "Update Name", nullptr));
         SettingspageBackBtn->setText(QCoreApplication::translate("settings", "Back", nullptr));
     } // retranslateUi

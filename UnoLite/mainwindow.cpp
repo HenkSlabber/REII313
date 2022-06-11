@@ -4,19 +4,13 @@
 #include "halloffame.h"
 #include "multiplayerpage.h"
 #include "singleplayerpage.h"
-#include "popup.h"
 #include "GlobalVariables.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::MainWindow)
+   ui(new Ui::MainWindow)
 {
-    if(PlayerName==NULL){
-        PopUp =new Popup();
-        PopUp->show();
-    }else{
-        ui->setupUi(this);
-    }
+    ui->setupUi(this);
 }
 
 MainWindow::~MainWindow()

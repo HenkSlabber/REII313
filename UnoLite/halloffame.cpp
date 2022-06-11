@@ -12,3 +12,9 @@ halloffame::~halloffame()
 {
     delete ui;
 }
+
+void halloffame::on_HallOfFameBackBtn_clicked()
+{
+    firstpage2 = new FirstPage();
+    firstpage2->show();
+}

@@ -42,7 +42,6 @@ private:
     halloffame *HallOfFame;
     multiplayerpage *MultiPlayerPage;
     singleplayerpage *SinglePlayerPage;
-    Popup *PopUp;
 };
 
 #endif // MAINWINDOW_H

@@ -36,7 +36,7 @@
     <item row="0" column="0">
      <widget class="QPushButton" name="HallOfFameBackBtn">
       <property name="text">
-       <string>PushButton</string>
+       <string>back</string>
       </property>
      </widget>
     </item>

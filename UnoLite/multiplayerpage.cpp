@@ -1,7 +1,5 @@
 #include "multiplayerpage.h"
 #include "ui_multiplayerpage.h"
-#include "hostgamepage.h"
-#include "lobbypage.h"
 
 multiplayerpage::multiplayerpage(QWidget *parent) :
     QWidget(parent),
@@ -30,3 +28,10 @@ void multiplayerpage::on_ConnectBtn_clicked()
     this->hide();
 }
 
+
+void multiplayerpage::on_MultiplayerPageBackBtn_clicked()
+{
+    firstpage1 = new FirstPage();
+    firstpage1->show();
+    this->hide();
+}

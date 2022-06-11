@@ -4,5 +4,4 @@
 
 static QString PlayerName = nullptr;
 
-
 #endif // GLOBALVARIABLES_H

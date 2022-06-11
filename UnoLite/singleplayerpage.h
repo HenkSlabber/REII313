@@ -2,7 +2,7 @@
 #define SINGLEPLAYERPAGE_H
 
 #include <QWidget>
-#include <QMainWindow>
+#include <firstpage.h>
 
 namespace Ui {
 class singleplayerpage;
@@ -18,8 +18,11 @@ public:
 
 private slots:
 
+    void on_singleplayerpageBackBtn_clicked();
+
 private:
     Ui::singleplayerpage *ui;
+    FirstPage *firstpage0;
 };
 
 #endif // SINGLEPLAYERPAGE_H

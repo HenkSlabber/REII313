@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include <QString>
-
+#include <firstpage.h>
 
 namespace Ui {
 class Popup;
@@ -17,14 +17,13 @@ public:
     explicit Popup(QWidget *parent = nullptr);
     ~Popup();
 
-    Popup *PopUp;
-
 private slots:
     void on_SaveBtn_clicked();
 
 private:
     Ui::Popup *ui;
     QString TextFromPlainTextEdit;
+    FirstPage *firstpage;
 
 };
 
