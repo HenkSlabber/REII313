@@ -15,35 +15,35 @@ FirstPage::~FirstPage()
 
 void FirstPage::on_SinglePlayerBtn_clicked()
 {
-    this->close();
     SinglePlayerPage = new singleplayerpage();
     SinglePlayerPage->show();
+    this->close();
 }
 
 void FirstPage::on_MultiplayerBtn_clicked()
 {
-    this->close();
     MultiPlayerPage = new multiplayerpage();
     MultiPlayerPage->show();
+    this->close();
 }
 
 void FirstPage::on_HallOfFameBtn_clicked()
 {
-    this->close();
     HallOfFame = new halloffame();
     HallOfFame->show();
+    this->close();
 }
 
 void FirstPage::on_SettingsBtn_clicked()
 {
-    this->close();
     Settings = new settings();
     Settings->show();
+    this->close();
 }
 
 void FirstPage::on_QuitBtn_clicked()
 {
-    FirstPage::close();
+    this->close();
 }
 
 

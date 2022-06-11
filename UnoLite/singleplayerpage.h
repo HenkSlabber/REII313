@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <firstpage.h>
+#include "unolite.h"
 
 namespace Ui {
 class singleplayerpage;
@@ -19,6 +20,8 @@ public:
 private slots:
 
     void on_singleplayerpageBackBtn_clicked();
+
+    void on_StartGameBtn_clicked();
 
 private:
     Ui::singleplayerpage *ui;

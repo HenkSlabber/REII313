@@ -15,23 +15,23 @@ multiplayerpage::~multiplayerpage()
 
 void multiplayerpage::on_HostBtn_clicked()
 {
-    this->close();
     HostGamePage = new hostgamepage();
     HostGamePage->show();
+    this->close();
 }
 
 
 void multiplayerpage::on_ConnectBtn_clicked()
 {
-    this->close();
     LobbyPage = new lobbypage();
     LobbyPage->show();
+    this->close();
 }
 
 
 void multiplayerpage::on_MultiplayerPageBackBtn_clicked()
 {
-    this->close();
     firstpage1 = new FirstPage();
     firstpage1->show();
+    this->close();
 }
