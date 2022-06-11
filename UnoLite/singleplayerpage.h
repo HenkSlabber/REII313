@@ -2,7 +2,7 @@
 #define SINGLEPLAYERPAGE_H
 
 #include <QWidget>
-//#include <mainwindow.h>
+#include <mainwindow.h>
 #include <QMainWindow>
 
 namespace Ui {
@@ -24,6 +24,7 @@ private:
     Ui::singleplayerpage *ui;
    // MainWindow *mainwindow;
   // singelplayerpage *closewindow;
+    MainWindow *mainWindow;
 };
 
 #endif // SINGLEPLAYERPAGE_H

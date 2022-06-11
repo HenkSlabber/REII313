@@ -21,8 +21,8 @@ void singleplayerpage::on_singleplayerpageBackBtn_clicked()
 {
     //this->destroy();
 
-    MainWindow w;
-    w.show();
+    mainWindow = new MainWindow;
+    mainWindow->show();
     this->hide();
 
 

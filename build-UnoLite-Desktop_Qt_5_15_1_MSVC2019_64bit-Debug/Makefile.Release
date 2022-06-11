@@ -536,8 +536,8 @@ release\moc_lobbypage.cpp: ..\UnoLite\lobbypage.h \
 	C:\Qt\5.15.1\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_5_15_1_MSVC2019_64bit-Debug/release/moc_predefs.h -IC:/Qt/5.15.1/msvc2019_64/mkspecs/win32-msvc -ID:/Users/Erik/Documents/GitHub/REII313/UnoLite -IC:/Qt/5.15.1/msvc2019_64/include -IC:/Qt/5.15.1/msvc2019_64/include/QtWidgets -IC:/Qt/5.15.1/msvc2019_64/include/QtGui -IC:/Qt/5.15.1/msvc2019_64/include/QtANGLE -IC:/Qt/5.15.1/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\UnoLite\lobbypage.h -o release\moc_lobbypage.cpp
 
 release\moc_mainwindow.cpp: ..\UnoLite\mainwindow.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QMainWindow \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qwidget.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtwidgetsglobal.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtguiglobal.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qglobal.h \
@@ -563,7 +563,6 @@ release\moc_mainwindow.cpp: ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qversiontagging.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtgui-config.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtwidgets-config.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qwidget.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qwindowdefs.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qobjectdefs.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qnamespace.h \
@@ -640,10 +639,6 @@ release\moc_mainwindow.cpp: ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
-		..\UnoLite\singleplayerpage.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
 		release\moc_predefs.h \
 		C:\Qt\5.15.1\msvc2019_64\bin\moc.exe
 	C:\Qt\5.15.1\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_5_15_1_MSVC2019_64bit-Debug/release/moc_predefs.h -IC:/Qt/5.15.1/msvc2019_64/mkspecs/win32-msvc -ID:/Users/Erik/Documents/GitHub/REII313/UnoLite -IC:/Qt/5.15.1/msvc2019_64/include -IC:/Qt/5.15.1/msvc2019_64/include/QtWidgets -IC:/Qt/5.15.1/msvc2019_64/include/QtGui -IC:/Qt/5.15.1/msvc2019_64/include/QtANGLE -IC:/Qt/5.15.1/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\UnoLite\mainwindow.h -o release\moc_mainwindow.cpp
@@ -752,6 +747,8 @@ release\moc_multiplayerpage.cpp: ..\UnoLite\multiplayerpage.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
+		..\UnoLite\hostgamepage.h \
+		..\UnoLite\lobbypage.h \
 		release\moc_predefs.h \
 		C:\Qt\5.15.1\msvc2019_64\bin\moc.exe
 	C:\Qt\5.15.1\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_5_15_1_MSVC2019_64bit-Debug/release/moc_predefs.h -IC:/Qt/5.15.1/msvc2019_64/mkspecs/win32-msvc -ID:/Users/Erik/Documents/GitHub/REII313/UnoLite -IC:/Qt/5.15.1/msvc2019_64/include -IC:/Qt/5.15.1/msvc2019_64/include/QtWidgets -IC:/Qt/5.15.1/msvc2019_64/include/QtGui -IC:/Qt/5.15.1/msvc2019_64/include/QtANGLE -IC:/Qt/5.15.1/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\UnoLite\multiplayerpage.h -o release\moc_multiplayerpage.cpp
@@ -968,6 +965,11 @@ release\moc_singleplayerpage.cpp: ..\UnoLite\singleplayerpage.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
+		..\UnoLite\mainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QMainWindow \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
 		release\moc_predefs.h \
 		C:\Qt\5.15.1\msvc2019_64\bin\moc.exe
 	C:\Qt\5.15.1\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_5_15_1_MSVC2019_64bit-Debug/release/moc_predefs.h -IC:/Qt/5.15.1/msvc2019_64/mkspecs/win32-msvc -ID:/Users/Erik/Documents/GitHub/REII313/UnoLite -IC:/Qt/5.15.1/msvc2019_64/include -IC:/Qt/5.15.1/msvc2019_64/include/QtWidgets -IC:/Qt/5.15.1/msvc2019_64/include/QtGui -IC:/Qt/5.15.1/msvc2019_64/include/QtANGLE -IC:/Qt/5.15.1/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\UnoLite\singleplayerpage.h -o release\moc_singleplayerpage.cpp
@@ -1123,7 +1125,45 @@ release\halloffame.obj: ..\UnoLite\halloffame.cpp ..\UnoLite\halloffame.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		ui_halloffame.h
+		ui_halloffame.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\QVariant \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qcoreapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qeventloop.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qguiapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QGridLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QHeaderView \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qheaderview.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractitemview.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractscrollarea.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qframe.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qabstractitemmodel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qitemselectionmodel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractitemdelegate.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstyleoption.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractspinbox.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvalidator.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qregularexpression.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qslider.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractslider.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstyle.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabbar.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qrubberband.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QPushButton \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QTableWidget \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtablewidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtableview.h
 
 release\hostgamepage.obj: ..\UnoLite\hostgamepage.cpp ..\UnoLite\hostgamepage.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
@@ -1229,7 +1269,45 @@ release\hostgamepage.obj: ..\UnoLite\hostgamepage.cpp ..\UnoLite\hostgamepage.h 
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		ui_hostgamepage.h
+		ui_hostgamepage.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\QVariant \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qcoreapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qeventloop.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qguiapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QColumnView \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qcolumnview.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractitemview.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractscrollarea.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qframe.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qabstractitemmodel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qitemselectionmodel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractitemdelegate.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstyleoption.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractspinbox.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvalidator.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qregularexpression.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qslider.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractslider.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstyle.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabbar.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qrubberband.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QGridLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QLabel \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlabel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QPushButton \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QVBoxLayout
 
 release\lobbypage.obj: ..\UnoLite\lobbypage.cpp ..\UnoLite\lobbypage.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
@@ -1335,11 +1413,31 @@ release\lobbypage.obj: ..\UnoLite\lobbypage.cpp ..\UnoLite\lobbypage.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		ui_lobbypage.h
+		ui_lobbypage.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\QVariant \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qcoreapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qeventloop.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qguiapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QProgressBar \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qprogressbar.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qframe.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QPushButton \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QVBoxLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qgridlayout.h
 
 release\main.obj: ..\UnoLite\main.cpp ..\UnoLite\mainwindow.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QMainWindow \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qwidget.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtwidgetsglobal.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtguiglobal.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qglobal.h \
@@ -1365,7 +1463,6 @@ release\main.obj: ..\UnoLite\main.cpp ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qversiontagging.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtgui-config.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtwidgets-config.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qwidget.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qwindowdefs.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qobjectdefs.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qnamespace.h \
@@ -1442,10 +1539,6 @@ release\main.obj: ..\UnoLite\main.cpp ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
-		..\UnoLite\singleplayerpage.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qapplication.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qcoreapplication.h \
@@ -1455,8 +1548,8 @@ release\main.obj: ..\UnoLite\main.cpp ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h
 
 release\mainwindow.obj: ..\UnoLite\mainwindow.cpp ..\UnoLite\mainwindow.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QMainWindow \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qwidget.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtwidgetsglobal.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtguiglobal.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qglobal.h \
@@ -1482,7 +1575,6 @@ release\mainwindow.obj: ..\UnoLite\mainwindow.cpp ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qversiontagging.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtgui-config.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtwidgets-config.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qwidget.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qwindowdefs.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qobjectdefs.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qnamespace.h \
@@ -1559,10 +1651,6 @@ release\mainwindow.obj: ..\UnoLite\mainwindow.cpp ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
-		..\UnoLite\singleplayerpage.h \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
 		ui_mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\QVariant \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
@@ -1572,6 +1660,10 @@ release\mainwindow.obj: ..\UnoLite\mainwindow.cpp ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qguiapplication.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QMainWindow \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QMenuBar \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmenubar.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmenu.h \
@@ -1581,7 +1673,12 @@ release\mainwindow.obj: ..\UnoLite\mainwindow.cpp ..\UnoLite\mainwindow.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qpushbutton.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractbutton.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QStatusBar \
-		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstatusbar.h
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstatusbar.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QVBoxLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qgridlayout.h
 
 release\multiplayerpage.obj: ..\UnoLite\multiplayerpage.cpp ..\UnoLite\multiplayerpage.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
@@ -1687,7 +1784,26 @@ release\multiplayerpage.obj: ..\UnoLite\multiplayerpage.cpp ..\UnoLite\multiplay
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		ui_multiplayerpage.h
+		..\UnoLite\hostgamepage.h \
+		..\UnoLite\lobbypage.h \
+		ui_multiplayerpage.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\QVariant \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qcoreapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qeventloop.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qguiapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QPushButton \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QVBoxLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qgridlayout.h
 
 release\settings.obj: ..\UnoLite\settings.cpp ..\UnoLite\settings.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
@@ -1793,7 +1909,43 @@ release\settings.obj: ..\UnoLite\settings.cpp ..\UnoLite\settings.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		ui_settings.h
+		ui_settings.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\QVariant \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qcoreapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qeventloop.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qguiapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QGridLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QHBoxLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QLabel \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlabel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qframe.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QPlainTextEdit \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qplaintextedit.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtextedit.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractscrollarea.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtextdocument.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtextoption.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtextcursor.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtextformat.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qpen.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qabstracttextdocumentlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtextlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qglyphrun.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qrawfont.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qfontdatabase.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QPushButton \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QVBoxLayout
 
 release\singleplayerpage.obj: ..\UnoLite\singleplayerpage.cpp ..\UnoLite\singleplayerpage.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QWidget \
@@ -1899,7 +2051,45 @@ release\singleplayerpage.obj: ..\UnoLite\singleplayerpage.cpp ..\UnoLite\singlep
 		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qfiledevice.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvector2d.h \
 		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qtouchdevice.h \
-		ui_singleplayerpage.h
+		..\UnoLite\mainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QMainWindow \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qmainwindow.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qicon.h \
+		ui_singleplayerpage.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\QVariant \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QApplication \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qcoreapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qeventloop.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qguiapplication.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qinputmethod.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QComboBox \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qcombobox.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractitemdelegate.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstyleoption.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractspinbox.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtGui\qvalidator.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qregularexpression.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qslider.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractslider.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qstyle.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qtabbar.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qrubberband.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qframe.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtCore\qabstractitemmodel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QHBoxLayout \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QLabel \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qlabel.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QPushButton \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		C:\Qt\5.15.1\msvc2019_64\include\QtWidgets\QVBoxLayout
 
 release\moc_halloffame.obj: release\moc_halloffame.cpp 
 
