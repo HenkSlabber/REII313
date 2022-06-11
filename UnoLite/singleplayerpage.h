@@ -18,13 +18,9 @@ public:
     ~singleplayerpage();
 
 private slots:
-    void on_singleplayerpageBackBtn_clicked();
 
 private:
     Ui::singleplayerpage *ui;
-   // MainWindow *mainwindow;
-  // singelplayerpage *closewindow;
-    MainWindow *mainWindow;
 };
 
 #endif // SINGLEPLAYERPAGE_H

@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -18,12 +19,32 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QPushButton *SinglePlayerBtn;
+    QPushButton *MultiplayerBtn;
+    QPushButton *SettingsBtn;
+    QPushButton *HallOfFameBtn;
+    QPushButton *QuitBtn;
 
     void setupUi(QWidget *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(400, 300);
+        SinglePlayerBtn = new QPushButton(MainWindow);
+        SinglePlayerBtn->setObjectName(QString::fromUtf8("SinglePlayerBtn"));
+        SinglePlayerBtn->setGeometry(QRect(160, 60, 80, 25));
+        MultiplayerBtn = new QPushButton(MainWindow);
+        MultiplayerBtn->setObjectName(QString::fromUtf8("MultiplayerBtn"));
+        MultiplayerBtn->setGeometry(QRect(130, 100, 151, 31));
+        SettingsBtn = new QPushButton(MainWindow);
+        SettingsBtn->setObjectName(QString::fromUtf8("SettingsBtn"));
+        SettingsBtn->setGeometry(QRect(150, 180, 91, 25));
+        HallOfFameBtn = new QPushButton(MainWindow);
+        HallOfFameBtn->setObjectName(QString::fromUtf8("HallOfFameBtn"));
+        HallOfFameBtn->setGeometry(QRect(160, 140, 80, 25));
+        QuitBtn = new QPushButton(MainWindow);
+        QuitBtn->setObjectName(QString::fromUtf8("QuitBtn"));
+        QuitBtn->setGeometry(QRect(180, 220, 51, 21));
 
         retranslateUi(MainWindow);
 
@@ -33,6 +54,11 @@ public:
     void retranslateUi(QWidget *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Form", nullptr));
+        SinglePlayerBtn->setText(QCoreApplication::translate("MainWindow", "Single Player", nullptr));
+        MultiplayerBtn->setText(QCoreApplication::translate("MainWindow", "Multiplayer", nullptr));
+        SettingsBtn->setText(QCoreApplication::translate("MainWindow", "Settings", nullptr));
+        HallOfFameBtn->setText(QCoreApplication::translate("MainWindow", "Hall of fame", nullptr));
+        QuitBtn->setText(QCoreApplication::translate("MainWindow", "Quit", nullptr));
     } // retranslateUi
 
 };
