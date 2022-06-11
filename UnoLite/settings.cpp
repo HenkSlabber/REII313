@@ -18,9 +18,9 @@ settings::~settings()
 
 void settings::on_SettingspageBackBtn_clicked()
 {
+    this->close();
     firstpage3 = new FirstPage();
     firstpage3->show();
-    this->hide();
 }
 
 void settings::on_UpdateNameBtn_clicked()
@@ -28,6 +28,6 @@ void settings::on_UpdateNameBtn_clicked()
     TextFromPlainTextEdit = ui->UpdateNameTextEdit->toPlainText();
     PlayerName = TextFromPlainTextEdit;
     this->close();
-    firstpage = new FirstPage();
-    firstpage->show();
+    firstpage3 = new FirstPage();
+    firstpage3->show();
 }

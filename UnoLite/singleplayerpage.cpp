@@ -16,7 +16,7 @@ singleplayerpage::~singleplayerpage()
 
 void singleplayerpage::on_singleplayerpageBackBtn_clicked()
 {
+    this->close();
     firstpage0 = new FirstPage();
     firstpage0->show();
-    this->hide();
 }
