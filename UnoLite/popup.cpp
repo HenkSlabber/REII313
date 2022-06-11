@@ -20,4 +20,5 @@ void Popup::on_SaveBtn_clicked()
     TextFromPlainTextEdit = ui->EnterNameHere->toPlainText();
     PlayerName = TextFromPlainTextEdit;
     this->close();
+
 }
