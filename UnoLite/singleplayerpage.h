@@ -2,7 +2,6 @@
 #define SINGLEPLAYERPAGE_H
 
 #include <QWidget>
-#include <mainwindow.h>
 #include <QMainWindow>
 
 namespace Ui {
