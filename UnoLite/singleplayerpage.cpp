@@ -1,6 +1,7 @@
 #include "singleplayerpage.h"
 #include "ui_singleplayerpage.h"
-#include "unolite.h"
+#include "unoliteDufficulty1.h"
+#include "unoliteDufficulty2.h"
 
 singleplayerpage::singleplayerpage(QWidget *parent) :
     QWidget(parent),
@@ -27,9 +28,13 @@ void singleplayerpage::on_singleplayerpageBackBtn_clicked()
 void singleplayerpage::on_StartGameBtn_clicked()
 {
     //Open game
-    UnoLite unolite;
-    unolite.setWindowState(Qt::WindowMaximized);
-    unolite.show();
+    Dufficulty1 = new UnoLiteDufficulty1();
+    Dufficulty1->setWindowState(Qt::WindowMaximized);
+    Dufficulty1->show();
+    //Dufficulty2 = new UnoLiteDufficulty2();
+    //Dufficulty2->setWindowState(Qt::WindowMaximized);
+    //Dufficulty2->show();
+
     //close current page
     this->close();
 }

@@ -15,7 +15,9 @@ lobbypage::~lobbypage()
 
 void lobbypage::on_LeaveGameBtn_clicked()
 {
+    //Use slot to get back to previous page
     emit BackButtonPressed();
+    //close current page
     this->close();
 }
 

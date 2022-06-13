@@ -19,7 +19,8 @@ SOURCES += \
     popup.cpp \
     settings.cpp \
     singleplayerpage.cpp \
-    unolite.cpp
+    unoliteDufficulty1.cpp \
+    unoliteDufficulty2.cpp
 
 HEADERS += \
     GlobalVariables.h \
@@ -32,7 +33,8 @@ HEADERS += \
     popup.h \
     settings.h \
     singleplayerpage.h \
-    unolite.h
+    unoliteDufficulty1.h \
+    unoliteDufficulty2.h
 
 FORMS += \
     firstpage.ui \

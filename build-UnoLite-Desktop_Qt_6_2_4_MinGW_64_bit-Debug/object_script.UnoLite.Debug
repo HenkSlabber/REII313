@@ -8,7 +8,8 @@ debug/multiplayerpage.o
 debug/popup.o
 debug/settings.o
 debug/singleplayerpage.o
-debug/unolite.o
+debug/unoliteDufficulty1.o
+debug/unoliteDufficulty2.o
 debug/moc_card.o
 debug/moc_firstpage.o
 debug/moc_halloffame.o
@@ -18,4 +19,5 @@ debug/moc_multiplayerpage.o
 debug/moc_popup.o
 debug/moc_settings.o
 debug/moc_singleplayerpage.o
-debug/moc_unolite.o
+debug/moc_unoliteDufficulty1.o
+debug/moc_unoliteDufficulty2.o

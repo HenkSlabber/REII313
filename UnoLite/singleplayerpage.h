@@ -2,7 +2,8 @@
 #define SINGLEPLAYERPAGE_H
 
 #include <QWidget>
-#include "unolite.h"
+#include "unoliteDufficulty1.h"
+#include "unoliteDufficulty2.h"
 
 namespace Ui {
 class singleplayerpage;
@@ -27,7 +28,8 @@ private slots:
 
 private:
     Ui::singleplayerpage *ui;
-//    FirstPage *firstpage0;
+    UnoLiteDufficulty1 *Dufficulty1;
+    UnoLiteDufficulty2 *Dufficulty2;
 };
 
 #endif // SINGLEPLAYERPAGE_H

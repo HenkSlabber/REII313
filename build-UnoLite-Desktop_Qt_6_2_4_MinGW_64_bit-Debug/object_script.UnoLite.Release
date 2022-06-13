@@ -8,7 +8,8 @@ release/multiplayerpage.o
 release/popup.o
 release/settings.o
 release/singleplayerpage.o
-release/unolite.o
+release/unoliteDufficulty1.o
+release/unoliteDufficulty2.o
 release/moc_card.o
 release/moc_firstpage.o
 release/moc_halloffame.o
@@ -18,4 +19,5 @@ release/moc_multiplayerpage.o
 release/moc_popup.o
 release/moc_settings.o
 release/moc_singleplayerpage.o
-release/moc_unolite.o
+release/moc_unoliteDufficulty1.o
+release/moc_unoliteDufficulty2.o
