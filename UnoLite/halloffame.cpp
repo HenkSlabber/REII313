@@ -15,7 +15,8 @@ halloffame::~halloffame()
 
 void halloffame::on_HallOfFameBackBtn_clicked()
 {
-    firstpage2 = new FirstPage();
-    firstpage2->show();
+    //Use slot to get back to previous page
+    emit BackButtonPressed();
+    //close current page
     this->close();
 }

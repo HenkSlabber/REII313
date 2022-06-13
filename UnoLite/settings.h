@@ -2,7 +2,6 @@
 #define SETTINGS_H
 
 #include <QWidget>
-#include <firstpage.h>
 
 
 namespace Ui {
@@ -17,6 +16,9 @@ public:
     explicit settings(QWidget *parent = nullptr);
     ~settings();
 
+signals:
+    void BackButtonPressed();
+
 private slots:
     void on_SettingspageBackBtn_clicked();
 
@@ -25,7 +27,6 @@ private slots:
 private:
     Ui::settings *ui;
     QString TextFromPlainTextEdit;
-    FirstPage *firstpage3;
 };
 
 #endif // SETTINGS_H

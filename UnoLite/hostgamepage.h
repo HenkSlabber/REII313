@@ -15,6 +15,12 @@ public:
     explicit hostgamepage(QWidget *parent = nullptr);
     ~hostgamepage();
 
+signals:
+    void BackButtonPressed();
+
+private slots:
+    void on_HostagamepageBackBtn_clicked();
+
 private:
     Ui::hostgamepage *ui;
 };

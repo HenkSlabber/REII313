@@ -19,6 +19,9 @@ public:
     explicit FirstPage(QWidget *parent = nullptr);
     ~FirstPage();
 
+public slots:
+    void backbuttonpressed();
+
 private slots:
     void on_QuitBtn_clicked();
 

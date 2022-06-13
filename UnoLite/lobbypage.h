@@ -15,6 +15,12 @@ public:
     explicit lobbypage(QWidget *parent = nullptr);
     ~lobbypage();
 
+signals:
+    void BackButtonPressed();
+
+private slots:
+    void on_LeaveGameBtn_clicked();
+
 private:
     Ui::lobbypage *ui;
 };

@@ -4,7 +4,6 @@
 #include <QWidget>
 #include "hostgamepage.h"
 #include "lobbypage.h"
-#include <firstpage.h>
 
 
 namespace Ui {
@@ -19,6 +18,12 @@ public:
     explicit multiplayerpage(QWidget *parent = nullptr);
     ~multiplayerpage();
 
+signals:
+    void BackButtonPressed();
+
+public slots:
+    void backbuttonpressed();
+
 private slots:
     void on_HostBtn_clicked();
 
@@ -30,7 +35,6 @@ private:
     Ui::multiplayerpage *ui;
     hostgamepage *HostGamePage;
     lobbypage *LobbyPage;
-    FirstPage *firstpage1;
 };
 
 #endif // MULTIPLAYERPAGE_H

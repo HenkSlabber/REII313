@@ -2,7 +2,6 @@
 #define SINGLEPLAYERPAGE_H
 
 #include <QWidget>
-#include <firstpage.h>
 #include "unolite.h"
 
 namespace Ui {
@@ -17,6 +16,9 @@ public:
     explicit singleplayerpage(QWidget *parent = nullptr);
     ~singleplayerpage();
 
+signals:
+    void BackButtonPressed();
+
 private slots:
 
     void on_singleplayerpageBackBtn_clicked();
@@ -25,7 +27,7 @@ private slots:
 
 private:
     Ui::singleplayerpage *ui;
-    FirstPage *firstpage0;
+//    FirstPage *firstpage0;
 };
 
 #endif // SINGLEPLAYERPAGE_H

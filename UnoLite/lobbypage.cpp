@@ -12,3 +12,10 @@ lobbypage::~lobbypage()
 {
     delete ui;
 }
+
+void lobbypage::on_LeaveGameBtn_clicked()
+{
+    emit BackButtonPressed();
+    this->close();
+}
+

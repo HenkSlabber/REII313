@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include <QString>
-#include <firstpage.h>
+#include "firstpage.h"
 
 namespace Ui {
 class Popup;

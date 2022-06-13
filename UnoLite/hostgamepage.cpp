@@ -12,3 +12,12 @@ hostgamepage::~hostgamepage()
 {
     delete ui;
 }
+
+void hostgamepage::on_HostagamepageBackBtn_clicked()
+{
+    //Use slot to get back to previous page
+    emit BackButtonPressed();
+    //close current page
+    this->close();
+}
+

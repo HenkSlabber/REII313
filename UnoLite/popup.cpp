@@ -2,6 +2,7 @@
 #include "ui_popup.h"
 #include <QString>
 #include "GlobalVariables.h"
+#include "firstpage.h"
 
 Popup::Popup(QWidget *parent) :
     QWidget(parent),
@@ -17,9 +18,12 @@ Popup::~Popup()
 
 void Popup::on_SaveBtn_clicked()
 {
+    //Update Var with player name
     TextFromPlainTextEdit = ui->EnterNameHere->toPlainText();
     PlayerName = TextFromPlainTextEdit;
+    //Open page
     firstpage = new FirstPage();
     firstpage->show();
+    //close current page
     this->close();
 }

@@ -18,16 +18,19 @@ settings::~settings()
 
 void settings::on_SettingspageBackBtn_clicked()
 {
-    firstpage3 = new FirstPage();
-    firstpage3->show();
+    //Use slot to get back to previous page
+    emit BackButtonPressed();
+    //close current page
     this->close();
 }
 
 void settings::on_UpdateNameBtn_clicked()
 {
+    //update Var with new player name
     TextFromPlainTextEdit = ui->UpdateNameTextEdit->toPlainText();
     PlayerName = TextFromPlainTextEdit;
-    firstpage3 = new FirstPage();
-    firstpage3->show();
+    //Use slot to get back to previous page
+    emit BackButtonPressed();
+    //close current page
     this->close();
 }

@@ -5,6 +5,7 @@
 
 int main(int argc, char *argv[])
 {
+    //check to see if there is a palyer name
     QApplication a(argc, argv);
     Popup popup;
     FirstPage firstpage;
