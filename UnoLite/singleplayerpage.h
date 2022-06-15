@@ -30,6 +30,7 @@ private:
     Ui::singleplayerpage *ui;
     UnoLiteDufficulty1 *Dufficulty1;
     UnoLiteDufficulty2 *Dufficulty2;
+    QString Combobox;
 };
 
 #endif // SINGLEPLAYERPAGE_H

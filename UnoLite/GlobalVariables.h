@@ -4,5 +4,6 @@
 
 //Var to save player name
 static QString PlayerName = nullptr;
+static QString PlayerNameFile = "PlayerNameFile.txt";
 
 #endif // GLOBALVARIABLES_H

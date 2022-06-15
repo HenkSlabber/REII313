@@ -2,6 +2,8 @@
 #include "GlobalVariables.h"
 #include "firstpage.h"
 #include <QApplication>
+#include <QFile>
+#include <QMessageBox>
 
 int main(int argc, char *argv[])
 {
@@ -9,8 +11,16 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     Popup popup;
     FirstPage firstpage;
-    if(PlayerName == nullptr){
+    if(QFile::exists(PlayerNameFile))
+    {
+        QFile file(PlayerNameFile);
+        file.open(QIODevice::ReadWrite | QIODevice::Text);
+        PlayerName= file.readAll();
+    }else{
         popup.show();
+    }
+    if(PlayerName == nullptr){
+     popup.show();
     }else{
         firstpage.show();
     }

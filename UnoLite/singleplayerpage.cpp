@@ -8,6 +8,8 @@ singleplayerpage::singleplayerpage(QWidget *parent) :
     ui(new Ui::singleplayerpage)
 {
     ui->setupUi(this);
+    ui->DufficultySelect->addItem("Easy");
+    ui->DufficultySelect->addItem("Hard");
 }
 
 singleplayerpage::~singleplayerpage()
@@ -28,12 +30,19 @@ void singleplayerpage::on_singleplayerpageBackBtn_clicked()
 void singleplayerpage::on_StartGameBtn_clicked()
 {
     //Open game
-    Dufficulty1 = new UnoLiteDufficulty1();
-    Dufficulty1->setWindowState(Qt::WindowMaximized);
-    Dufficulty1->show();
-    //Dufficulty2 = new UnoLiteDufficulty2();
-    //Dufficulty2->setWindowState(Qt::WindowMaximized);
-    //Dufficulty2->show();
+    Combobox = ui->DufficultySelect->currentText();
+    if(Combobox == "Easy"){
+        Dufficulty1 = new UnoLiteDufficulty1();
+        Dufficulty1->setWindowState(Qt::WindowMaximized);
+        Dufficulty1->show();
+    }
+    else{
+        Dufficulty2 = new UnoLiteDufficulty2();
+        Dufficulty2->setWindowState(Qt::WindowMaximized);
+        Dufficulty2->show();
+    }
+
+
 
     //close current page
     this->close();

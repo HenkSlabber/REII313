@@ -371,23 +371,6 @@ void UnoLiteDufficulty1::computerMove()
         goto finish;
     }
 
-    if (computerHand.length() < 3)
-    {
-        computerHandIterator.toFront();
-        while (computerHandIterator.hasNext())
-        {
-            Card *c = computerHandIterator.next();
-            if (c->cardName() == "+4")
-            {
-                stack.prepend(c);
-                computerHand.removeOne(c);
-                stack.first()->setup("+4", calc4Colour());
-                debug("Computer played +4: " + stack.first()->cardColour());
-                moved = true;
-                goto end;
-            }
-        }
-    }
     computerHandIterator.toFront();
     while (computerHandIterator.hasNext())
     {
