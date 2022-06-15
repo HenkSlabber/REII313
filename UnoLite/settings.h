@@ -15,6 +15,7 @@ class settings : public QWidget
 public:
     explicit settings(QWidget *parent = nullptr);
     ~settings();
+    void updatecurrentnamelabel();
 
 signals:
     void BackButtonPressed();
@@ -23,6 +24,8 @@ private slots:
     void on_SettingspageBackBtn_clicked();
 
     void on_UpdateNameBtn_clicked();
+
+
 
 private:
     Ui::settings *ui;

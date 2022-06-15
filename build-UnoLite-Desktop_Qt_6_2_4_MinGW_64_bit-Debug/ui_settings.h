@@ -92,7 +92,6 @@ public:
     {
         settings->setWindowTitle(QCoreApplication::translate("settings", "Form", nullptr));
         YourNameIs_2->setText(QCoreApplication::translate("settings", "Your Name Is:  ", nullptr));
-        CurrentName->setText(QString());
         UpdateNameBtn->setText(QCoreApplication::translate("settings", "Update Name", nullptr));
         SettingspageBackBtn->setText(QCoreApplication::translate("settings", "Back", nullptr));
     } // retranslateUi

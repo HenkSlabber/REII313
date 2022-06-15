@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     Popup popup;
     FirstPage firstpage;
+    //Check if Player name file exist and update Var
     if(QFile::exists(PlayerNameFile))
     {
         QFile file(PlayerNameFile);

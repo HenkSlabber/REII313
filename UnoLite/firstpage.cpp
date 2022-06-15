@@ -6,7 +6,6 @@ FirstPage::FirstPage(QWidget *parent) :
     ui(new Ui::FirstPage)
 {
     ui->setupUi(this);
-
 }
 
 FirstPage::~FirstPage()
@@ -49,13 +48,17 @@ void FirstPage::on_HallOfFameBtn_clicked()
 
 void FirstPage::on_SettingsBtn_clicked()
 {
+    //Create signal to update settings page
+//    emit UpdateCurrentNameLabel();
     //Open page
     Settings = new settings();
+    //Settings->updatecurrentnamelabel();
     Settings->show();
     //close current page
     this->close();
     //Create slot for new window to come back here
     QObject::connect(Settings, SIGNAL(BackButtonPressed()),this,SLOT(backbuttonpressed()));
+
 }
 
 void FirstPage::on_QuitBtn_clicked()
