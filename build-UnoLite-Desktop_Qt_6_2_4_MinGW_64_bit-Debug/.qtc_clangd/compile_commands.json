@@ -9,7 +9,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -84,7 +88,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -159,7 +167,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -234,7 +246,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -309,7 +325,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -384,7 +404,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -459,7 +483,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -534,7 +562,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -609,7 +641,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -684,7 +720,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -759,7 +799,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -834,7 +878,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -909,7 +957,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -984,7 +1036,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1059,7 +1115,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1134,7 +1194,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1209,7 +1273,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1284,7 +1352,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1359,7 +1431,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1434,7 +1510,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1509,7 +1589,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1584,7 +1668,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1659,7 +1747,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1734,7 +1826,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1809,7 +1905,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1869,10 +1969,17 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_multiplayerpage.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_multiplayerpage.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_firstpage.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_firstpage.h"
+>>>>>>> Stashed changes
 },
 {
     "arguments": [
@@ -1884,7 +1991,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1944,10 +2055,17 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_popup.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_popup.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_hostgamepage.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_hostgamepage.h"
+>>>>>>> Stashed changes
 },
 {
     "arguments": [
@@ -1959,7 +2077,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2019,10 +2141,17 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_singleplayerpage.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_singleplayerpage.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_settings.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_settings.h"
+>>>>>>> Stashed changes
 },
 {
     "arguments": [
@@ -2034,7 +2163,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2094,10 +2227,17 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_hostgamepage.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_hostgamepage.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_popup.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_popup.h"
+>>>>>>> Stashed changes
 },
 {
     "arguments": [
@@ -2109,7 +2249,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2169,10 +2313,17 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_firstpage.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_firstpage.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_singleplayerpage.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_singleplayerpage.h"
+>>>>>>> Stashed changes
 },
 {
     "arguments": [
@@ -2184,7 +2335,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2244,10 +2399,17 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_settings.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_settings.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_multiplayerpage.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_multiplayerpage.h"
+>>>>>>> Stashed changes
 },
 {
     "arguments": [
@@ -2259,7 +2421,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2319,10 +2485,17 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_halloffame.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_halloffame.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_lobbypage.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_lobbypage.h"
+>>>>>>> Stashed changes
 },
 {
     "arguments": [
@@ -2334,7 +2507,11 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\AppData\\Local\\Temp\\QtCreator-Baacmu\\clang-uiheader-PrHMCo",
+=======
+        "C:\\Users\\Erik\\AppData\\Local\\Temp\\QtCreator-HqVeDA\\clang-uiheader-oLBjuy",
+>>>>>>> Stashed changes
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2394,9 +2571,16 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
+<<<<<<< Updated upstream
         "C:\\Users\\User\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_lobbypage.h"
     ],
     "directory": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
     "file": "C:/Users/User/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_lobbypage.h"
+=======
+        "D:\\Users\\Erik\\Documents\\GitHub\\REII313\\build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\ui_halloffame.h"
+    ],
+    "directory": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "D:/Users/Erik/Documents/GitHub/REII313/build-UnoLite-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/ui_halloffame.h"
+>>>>>>> Stashed changes
 }
 ]
