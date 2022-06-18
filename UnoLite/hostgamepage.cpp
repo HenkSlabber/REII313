@@ -5,6 +5,7 @@ hostgamepage::hostgamepage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::hostgamepage)
 {
+    this->setFixedSize(400,450);
     ui->setupUi(this);
 }
 

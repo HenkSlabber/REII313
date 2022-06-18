@@ -5,6 +5,7 @@ FirstPage::FirstPage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::FirstPage)
 {
+    this->setFixedSize(400,450);
     ui->setupUi(this);
 }
 

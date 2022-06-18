@@ -5,6 +5,7 @@ multiplayerpage::multiplayerpage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::multiplayerpage)
 {
+    this->setFixedSize(400,450);
     ui->setupUi(this);
 }
 

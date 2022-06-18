@@ -5,6 +5,7 @@ debug/hostgamepage.o
 debug/lobbypage.o
 debug/main.o
 debug/multiplayerpage.o
+debug/network.o
 debug/popup.o
 debug/settings.o
 debug/singleplayerpage.o
@@ -16,6 +17,7 @@ debug/moc_halloffame.o
 debug/moc_hostgamepage.o
 debug/moc_lobbypage.o
 debug/moc_multiplayerpage.o
+debug/moc_network.o
 debug/moc_popup.o
 debug/moc_settings.o
 debug/moc_singleplayerpage.o

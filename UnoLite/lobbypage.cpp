@@ -5,6 +5,7 @@ lobbypage::lobbypage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::lobbypage)
 {
+    this->setFixedSize(400,450);
     ui->setupUi(this);
 }
 

@@ -5,6 +5,7 @@ release/hostgamepage.o
 release/lobbypage.o
 release/main.o
 release/multiplayerpage.o
+release/network.o
 release/popup.o
 release/settings.o
 release/singleplayerpage.o
@@ -16,6 +17,7 @@ release/moc_halloffame.o
 release/moc_hostgamepage.o
 release/moc_lobbypage.o
 release/moc_multiplayerpage.o
+release/moc_network.o
 release/moc_popup.o
 release/moc_settings.o
 release/moc_singleplayerpage.o

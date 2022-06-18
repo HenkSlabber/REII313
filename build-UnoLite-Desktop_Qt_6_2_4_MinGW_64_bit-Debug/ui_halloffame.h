@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QTableWidget>
@@ -23,29 +22,19 @@ class Ui_halloffame
 {
 public:
     QTableWidget *HallofFameTable;
-    QWidget *gridLayoutWidget;
-    QGridLayout *gridLayout;
     QPushButton *HallOfFameBackBtn;
 
     void setupUi(QWidget *halloffame)
     {
         if (halloffame->objectName().isEmpty())
             halloffame->setObjectName(QString::fromUtf8("halloffame"));
-        halloffame->resize(400, 300);
+        halloffame->resize(400, 450);
         HallofFameTable = new QTableWidget(halloffame);
         HallofFameTable->setObjectName(QString::fromUtf8("HallofFameTable"));
-        HallofFameTable->setGeometry(QRect(30, 10, 331, 181));
-        gridLayoutWidget = new QWidget(halloffame);
-        gridLayoutWidget->setObjectName(QString::fromUtf8("gridLayoutWidget"));
-        gridLayoutWidget->setGeometry(QRect(130, 220, 121, 41));
-        gridLayout = new QGridLayout(gridLayoutWidget);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        gridLayout->setContentsMargins(0, 0, 0, 0);
-        HallOfFameBackBtn = new QPushButton(gridLayoutWidget);
+        HallofFameTable->setGeometry(QRect(30, 70, 340, 250));
+        HallOfFameBackBtn = new QPushButton(halloffame);
         HallOfFameBackBtn->setObjectName(QString::fromUtf8("HallOfFameBackBtn"));
-
-        gridLayout->addWidget(HallOfFameBackBtn, 0, 0, 1, 1);
-
+        HallOfFameBackBtn->setGeometry(QRect(135, 350, 119, 24));
 
         retranslateUi(halloffame);
 

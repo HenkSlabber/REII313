@@ -7,49 +7,37 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>450</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="verticalLayoutWidget">
+  <widget class="QPushButton" name="LeaveGameBtn">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>30</y>
-     <width>291</width>
-     <height>111</height>
+     <x>150</x>
+     <y>350</y>
+     <width>100</width>
+     <height>25</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QProgressBar" name="progressBar">
-      <property name="value">
-       <number>24</number>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="text">
+    <string>Leave Game</string>
+   </property>
   </widget>
-  <widget class="QWidget" name="verticalLayoutWidget_2">
+  <widget class="QProgressBar" name="progressBar">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>180</y>
-     <width>181</width>
-     <height>61</height>
+     <x>50</x>
+     <y>200</y>
+     <width>300</width>
+     <height>25</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_2">
-    <item>
-     <widget class="QPushButton" name="LeaveGameBtn">
-      <property name="text">
-       <string>Leave Game</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="value">
+    <number>24</number>
+   </property>
   </widget>
  </widget>
  <resources/>

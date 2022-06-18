@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QColumnView>
-#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QVBoxLayout>
@@ -30,15 +29,13 @@ public:
     QLabel *Thisisyourgameid;
     QLabel *GameID;
     QColumnView *ConnectedPlayersTable;
-    QWidget *gridLayoutWidget;
-    QGridLayout *gridLayout;
     QPushButton *HostagamepageBackBtn;
 
     void setupUi(QWidget *hostgamepage)
     {
         if (hostgamepage->objectName().isEmpty())
             hostgamepage->setObjectName(QString::fromUtf8("hostgamepage"));
-        hostgamepage->resize(400, 300);
+        hostgamepage->resize(400, 450);
         verticalLayoutWidget = new QWidget(hostgamepage);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
         verticalLayoutWidget->setGeometry(QRect(120, 20, 141, 87));
@@ -67,18 +64,10 @@ public:
 
         ConnectedPlayersTable = new QColumnView(hostgamepage);
         ConnectedPlayersTable->setObjectName(QString::fromUtf8("ConnectedPlayersTable"));
-        ConnectedPlayersTable->setGeometry(QRect(30, 110, 311, 111));
-        gridLayoutWidget = new QWidget(hostgamepage);
-        gridLayoutWidget->setObjectName(QString::fromUtf8("gridLayoutWidget"));
-        gridLayoutWidget->setGeometry(QRect(130, 230, 121, 41));
-        gridLayout = new QGridLayout(gridLayoutWidget);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        gridLayout->setContentsMargins(0, 0, 0, 0);
-        HostagamepageBackBtn = new QPushButton(gridLayoutWidget);
+        ConnectedPlayersTable->setGeometry(QRect(30, 130, 340, 200));
+        HostagamepageBackBtn = new QPushButton(hostgamepage);
         HostagamepageBackBtn->setObjectName(QString::fromUtf8("HostagamepageBackBtn"));
-
-        gridLayout->addWidget(HostagamepageBackBtn, 0, 0, 1, 1);
-
+        HostagamepageBackBtn->setGeometry(QRect(125, 350, 119, 24));
 
         retranslateUi(hostgamepage);
 

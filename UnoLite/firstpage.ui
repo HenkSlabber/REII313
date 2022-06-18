@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>495</width>
-    <height>448</height>
+    <width>400</width>
+    <height>450</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,9 +16,9 @@
   <widget class="QPushButton" name="SinglePlayerBtn">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>110</y>
-     <width>131</width>
+     <x>135</x>
+     <y>150</y>
+     <width>130</width>
      <height>25</height>
     </rect>
    </property>
@@ -29,9 +29,9 @@
   <widget class="QPushButton" name="MultiplayerBtn">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>160</y>
-     <width>171</width>
+     <x>135</x>
+     <y>200</y>
+     <width>130</width>
      <height>25</height>
     </rect>
    </property>
@@ -42,9 +42,9 @@
   <widget class="QPushButton" name="HallOfFameBtn">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>210</y>
-     <width>131</width>
+     <x>135</x>
+     <y>250</y>
+     <width>130</width>
      <height>25</height>
     </rect>
    </property>
@@ -55,9 +55,9 @@
   <widget class="QPushButton" name="SettingsBtn">
    <property name="geometry">
     <rect>
-     <x>179</x>
-     <y>260</y>
-     <width>91</width>
+     <x>135</x>
+     <y>300</y>
+     <width>130</width>
      <height>25</height>
     </rect>
    </property>
@@ -68,14 +68,41 @@
   <widget class="QPushButton" name="QuitBtn">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>310</y>
-     <width>51</width>
+     <x>135</x>
+     <y>350</y>
+     <width>130</width>
      <height>25</height>
     </rect>
    </property>
    <property name="text">
     <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>200</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>UNO</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
  </widget>

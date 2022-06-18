@@ -16,6 +16,7 @@ SOURCES += \
     lobbypage.cpp \
     main.cpp \
     multiplayerpage.cpp \
+    network.cpp \
     popup.cpp \
     settings.cpp \
     singleplayerpage.cpp \
@@ -30,6 +31,7 @@ HEADERS += \
     hostgamepage.h \
     lobbypage.h \
     multiplayerpage.h \
+    network.h \
     popup.h \
     settings.h \
     singleplayerpage.h \

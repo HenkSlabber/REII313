@@ -7,6 +7,7 @@ settings::settings(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::settings)
 {
+    this->setFixedSize(400,450);
 
     ui->setupUi(this);
     ui->CurrentName->setText(PlayerName);

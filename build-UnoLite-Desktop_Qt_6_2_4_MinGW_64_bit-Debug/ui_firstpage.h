@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
@@ -24,27 +25,40 @@ public:
     QPushButton *HallOfFameBtn;
     QPushButton *SettingsBtn;
     QPushButton *QuitBtn;
+    QLabel *label;
 
     void setupUi(QWidget *FirstPage)
     {
         if (FirstPage->objectName().isEmpty())
             FirstPage->setObjectName(QString::fromUtf8("FirstPage"));
-        FirstPage->resize(495, 448);
+        FirstPage->resize(400, 450);
         SinglePlayerBtn = new QPushButton(FirstPage);
         SinglePlayerBtn->setObjectName(QString::fromUtf8("SinglePlayerBtn"));
-        SinglePlayerBtn->setGeometry(QRect(160, 110, 131, 25));
+        SinglePlayerBtn->setGeometry(QRect(135, 150, 130, 25));
         MultiplayerBtn = new QPushButton(FirstPage);
         MultiplayerBtn->setObjectName(QString::fromUtf8("MultiplayerBtn"));
-        MultiplayerBtn->setGeometry(QRect(140, 160, 171, 25));
+        MultiplayerBtn->setGeometry(QRect(135, 200, 130, 25));
         HallOfFameBtn = new QPushButton(FirstPage);
         HallOfFameBtn->setObjectName(QString::fromUtf8("HallOfFameBtn"));
-        HallOfFameBtn->setGeometry(QRect(160, 210, 131, 25));
+        HallOfFameBtn->setGeometry(QRect(135, 250, 130, 25));
         SettingsBtn = new QPushButton(FirstPage);
         SettingsBtn->setObjectName(QString::fromUtf8("SettingsBtn"));
-        SettingsBtn->setGeometry(QRect(179, 260, 91, 25));
+        SettingsBtn->setGeometry(QRect(135, 300, 130, 25));
         QuitBtn = new QPushButton(FirstPage);
         QuitBtn->setObjectName(QString::fromUtf8("QuitBtn"));
-        QuitBtn->setGeometry(QRect(200, 310, 51, 25));
+        QuitBtn->setGeometry(QRect(135, 350, 130, 25));
+        label = new QLabel(FirstPage);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(100, 40, 200, 70));
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(label->sizePolicy().hasHeightForWidth());
+        label->setSizePolicy(sizePolicy);
+        QFont font;
+        font.setPointSize(50);
+        label->setFont(font);
+        label->setAlignment(Qt::AlignCenter);
 
         retranslateUi(FirstPage);
 
@@ -59,6 +73,7 @@ public:
         HallOfFameBtn->setText(QCoreApplication::translate("FirstPage", "Hall of fame", nullptr));
         SettingsBtn->setText(QCoreApplication::translate("FirstPage", "Settings", nullptr));
         QuitBtn->setText(QCoreApplication::translate("FirstPage", "Quit", nullptr));
+        label->setText(QCoreApplication::translate("FirstPage", "UNO", nullptr));
     } // retranslateUi
 
 };
