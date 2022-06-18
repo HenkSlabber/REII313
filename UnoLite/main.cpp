@@ -17,6 +17,19 @@ int main(int argc, char *argv[])
         QFile file(PlayerNameFile);
         file.open(QIODevice::ReadWrite | QIODevice::Text);
         PlayerName= file.readAll();
+        if(QFile::exists(ScoreFile))
+        {
+            QFile file(ScoreFile);
+            file.open(QIODevice::ReadWrite | QIODevice::Text);
+            CurrentScore= file.readAll();
+        }else{
+            QFile file(ScoreFile);
+            if (file.open(QIODevice::ReadWrite)) {
+                QTextStream stream(&file);
+                CurrentScore = 0;
+                stream << CurrentScore << Qt::endl;
+            }
+        }
     }else{
         popup.show();
     }
