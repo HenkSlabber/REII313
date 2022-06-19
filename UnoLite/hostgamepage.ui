@@ -11,69 +11,48 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Uno</string>
   </property>
-  <widget class="QWidget" name="verticalLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>20</y>
-     <width>141</width>
-     <height>87</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QLabel" name="ThisisyourIPAddress">
-      <property name="text">
-       <string>This is your IP address: </string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="HostIPAddress">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="Thisisyourgameid">
-      <property name="text">
-       <string>This is your Game ID:  </string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="GameID">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QColumnView" name="ConnectedPlayersTable">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>130</y>
-     <width>340</width>
-     <height>200</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QPushButton" name="HostagamepageBackBtn">
    <property name="geometry">
     <rect>
-     <x>125</x>
+     <x>150</x>
      <y>350</y>
-     <width>119</width>
+     <width>100</width>
      <height>24</height>
     </rect>
    </property>
    <property name="text">
     <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startMultiplayerGameBtn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>140</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start Game</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>230</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>

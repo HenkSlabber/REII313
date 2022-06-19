@@ -7,10 +7,10 @@ singleplayerpage::singleplayerpage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::singleplayerpage)
 {
-    this->setFixedSize(400,450);
     ui->setupUi(this);
     ui->DufficultySelect->addItem("Easy");
     ui->DufficultySelect->addItem("Hard");
+    setWindowState(Qt::WindowMaximized);
 }
 
 singleplayerpage::~singleplayerpage()

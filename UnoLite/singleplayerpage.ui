@@ -7,73 +7,87 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>450</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Uno</string>
   </property>
-  <widget class="QWidget" name="verticalLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>210</y>
-     <width>101</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QPushButton" name="StartGameBtn">
-      <property name="text">
-       <string>Start Game</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="singleplayerpageBackBtn">
-      <property name="text">
-       <string>Back</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
   <widget class="QLabel" name="playerdifficulty">
    <property name="geometry">
     <rect>
-     <x>81</x>
-     <y>36</y>
-     <width>161</width>
-     <height>31</height>
+     <x>115</x>
+     <y>30</y>
+     <width>170</width>
+     <height>35</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Player difficulty</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget">
+  <widget class="QComboBox" name="DufficultySelect">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>80</y>
-     <width>321</width>
-     <height>91</height>
+     <x>180</x>
+     <y>122</y>
+     <width>156</width>
+     <height>24</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QLabel" name="AIplayer">
-      <property name="text">
-       <string>AI Difficulty</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QComboBox" name="DufficultySelect"/>
-    </item>
-   </layout>
   </widget>
+  <widget class="QLabel" name="AIplayer">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>320</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AI Difficulty</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StartGameBtn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>230</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start Game</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="singleplayerpageBackBtn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>300</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <zorder>playerdifficulty</zorder>
+  <zorder>AIplayer</zorder>
+  <zorder>StartGameBtn</zorder>
+  <zorder>singleplayerpageBackBtn</zorder>
+  <zorder>DufficultySelect</zorder>
  </widget>
  <resources/>
  <connections/>

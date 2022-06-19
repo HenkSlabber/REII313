@@ -11,12 +11,9 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -24,64 +21,32 @@ QT_BEGIN_NAMESPACE
 class Ui_settings
 {
 public:
-    QWidget *verticalLayoutWidget;
-    QVBoxLayout *verticalLayout;
-    QPlainTextEdit *UpdateNameTextEdit;
-    QHBoxLayout *horizontalLayout_2;
+    QPushButton *SettingspageBackBtn;
+    QPushButton *UpdateNameBtn;
     QLabel *YourNameIs_2;
     QLabel *CurrentName;
-    QPushButton *UpdateNameBtn;
-    QWidget *gridLayoutWidget;
-    QGridLayout *gridLayout;
-    QPushButton *SettingspageBackBtn;
+    QPlainTextEdit *UpdateNameTextEdit;
 
     void setupUi(QWidget *settings)
     {
         if (settings->objectName().isEmpty())
             settings->setObjectName(QString::fromUtf8("settings"));
-        settings->resize(400, 300);
-        verticalLayoutWidget = new QWidget(settings);
-        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(90, 30, 201, 181));
-        verticalLayout = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        UpdateNameTextEdit = new QPlainTextEdit(verticalLayoutWidget);
-        UpdateNameTextEdit->setObjectName(QString::fromUtf8("UpdateNameTextEdit"));
-
-        verticalLayout->addWidget(UpdateNameTextEdit);
-
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        YourNameIs_2 = new QLabel(verticalLayoutWidget);
-        YourNameIs_2->setObjectName(QString::fromUtf8("YourNameIs_2"));
-
-        horizontalLayout_2->addWidget(YourNameIs_2);
-
-        CurrentName = new QLabel(verticalLayoutWidget);
-        CurrentName->setObjectName(QString::fromUtf8("CurrentName"));
-
-        horizontalLayout_2->addWidget(CurrentName);
-
-
-        verticalLayout->addLayout(horizontalLayout_2);
-
-        UpdateNameBtn = new QPushButton(verticalLayoutWidget);
-        UpdateNameBtn->setObjectName(QString::fromUtf8("UpdateNameBtn"));
-
-        verticalLayout->addWidget(UpdateNameBtn);
-
-        gridLayoutWidget = new QWidget(settings);
-        gridLayoutWidget->setObjectName(QString::fromUtf8("gridLayoutWidget"));
-        gridLayoutWidget->setGeometry(QRect(140, 220, 101, 41));
-        gridLayout = new QGridLayout(gridLayoutWidget);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        gridLayout->setContentsMargins(0, 0, 0, 0);
-        SettingspageBackBtn = new QPushButton(gridLayoutWidget);
+        settings->resize(400, 450);
+        SettingspageBackBtn = new QPushButton(settings);
         SettingspageBackBtn->setObjectName(QString::fromUtf8("SettingspageBackBtn"));
-
-        gridLayout->addWidget(SettingspageBackBtn, 0, 0, 1, 1);
-
+        SettingspageBackBtn->setGeometry(QRect(150, 350, 100, 25));
+        UpdateNameBtn = new QPushButton(settings);
+        UpdateNameBtn->setObjectName(QString::fromUtf8("UpdateNameBtn"));
+        UpdateNameBtn->setGeometry(QRect(100, 280, 200, 25));
+        YourNameIs_2 = new QLabel(settings);
+        YourNameIs_2->setObjectName(QString::fromUtf8("YourNameIs_2"));
+        YourNameIs_2->setGeometry(QRect(60, 220, 95, 16));
+        CurrentName = new QLabel(settings);
+        CurrentName->setObjectName(QString::fromUtf8("CurrentName"));
+        CurrentName->setGeometry(QRect(160, 220, 180, 16));
+        UpdateNameTextEdit = new QPlainTextEdit(settings);
+        UpdateNameTextEdit->setObjectName(QString::fromUtf8("UpdateNameTextEdit"));
+        UpdateNameTextEdit->setGeometry(QRect(60, 40, 280, 170));
 
         retranslateUi(settings);
 
@@ -90,10 +55,10 @@ public:
 
     void retranslateUi(QWidget *settings)
     {
-        settings->setWindowTitle(QCoreApplication::translate("settings", "Form", nullptr));
-        YourNameIs_2->setText(QCoreApplication::translate("settings", "Your Name Is:  ", nullptr));
-        UpdateNameBtn->setText(QCoreApplication::translate("settings", "Update Name", nullptr));
+        settings->setWindowTitle(QCoreApplication::translate("settings", "Uno", nullptr));
         SettingspageBackBtn->setText(QCoreApplication::translate("settings", "Back", nullptr));
+        UpdateNameBtn->setText(QCoreApplication::translate("settings", "Update Name", nullptr));
+        YourNameIs_2->setText(QCoreApplication::translate("settings", "Your Name Is:  ", nullptr));
     } // retranslateUi
 
 };

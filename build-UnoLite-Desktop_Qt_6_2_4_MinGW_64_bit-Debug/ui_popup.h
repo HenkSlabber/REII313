@@ -29,16 +29,17 @@ public:
     {
         if (Popup->objectName().isEmpty())
             Popup->setObjectName(QString::fromUtf8("Popup"));
-        Popup->resize(269, 131);
+        Popup->resize(300, 130);
         label = new QLabel(Popup);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(90, 10, 71, 16));
+        label->setGeometry(QRect(110, 10, 80, 25));
+        label->setAlignment(Qt::AlignCenter);
         EnterNameHere = new QPlainTextEdit(Popup);
         EnterNameHere->setObjectName(QString::fromUtf8("EnterNameHere"));
-        EnterNameHere->setGeometry(QRect(40, 30, 161, 31));
+        EnterNameHere->setGeometry(QRect(75, 40, 150, 25));
         SaveBtn = new QPushButton(Popup);
         SaveBtn->setObjectName(QString::fromUtf8("SaveBtn"));
-        SaveBtn->setGeometry(QRect(80, 70, 80, 25));
+        SaveBtn->setGeometry(QRect(110, 80, 80, 25));
 
         retranslateUi(Popup);
 
@@ -47,7 +48,7 @@ public:
 
     void retranslateUi(QWidget *Popup)
     {
-        Popup->setWindowTitle(QCoreApplication::translate("Popup", "Form", nullptr));
+        Popup->setWindowTitle(QCoreApplication::translate("Popup", "Uno", nullptr));
         label->setText(QCoreApplication::translate("Popup", "Player Name:", nullptr));
         SaveBtn->setText(QCoreApplication::translate("Popup", "Save", nullptr));
     } // retranslateUi

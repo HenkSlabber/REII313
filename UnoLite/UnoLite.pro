@@ -9,6 +9,7 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    MultiplayerGame.cpp \
     card.cpp \
     firstpage.cpp \
     halloffame.cpp \
@@ -16,7 +17,6 @@ SOURCES += \
     lobbypage.cpp \
     main.cpp \
     multiplayerpage.cpp \
-    network.cpp \
     popup.cpp \
     settings.cpp \
     singleplayerpage.cpp \
@@ -25,13 +25,13 @@ SOURCES += \
 
 HEADERS += \
     GlobalVariables.h \
+    MultiplayerGame.h \
     card.h \
     firstpage.h \
     halloffame.h \
     hostgamepage.h \
     lobbypage.h \
     multiplayerpage.h \
-    network.h \
     popup.h \
     settings.h \
     singleplayerpage.h \

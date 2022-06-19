@@ -5,8 +5,9 @@ FirstPage::FirstPage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::FirstPage)
 {
-    this->setFixedSize(400,450);
+    setWindowState(Qt::WindowMaximized);
     ui->setupUi(this);
+
 }
 
 FirstPage::~FirstPage()

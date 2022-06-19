@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../../../../Desktop/Ingenieurswese/4de Jaar/INGB 318/UnoLite/UnoLite/singleplayerpage.h"
+#include "../../UnoLite/singleplayerpage.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>

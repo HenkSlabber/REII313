@@ -12,10 +12,8 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -23,56 +21,41 @@ QT_BEGIN_NAMESPACE
 class Ui_singleplayerpage
 {
 public:
-    QWidget *verticalLayoutWidget;
-    QVBoxLayout *verticalLayout;
+    QLabel *playerdifficulty;
+    QComboBox *DufficultySelect;
+    QLabel *AIplayer;
     QPushButton *StartGameBtn;
     QPushButton *singleplayerpageBackBtn;
-    QLabel *playerdifficulty;
-    QWidget *horizontalLayoutWidget;
-    QHBoxLayout *horizontalLayout;
-    QLabel *AIplayer;
-    QComboBox *DufficultySelect;
 
     void setupUi(QWidget *singleplayerpage)
     {
         if (singleplayerpage->objectName().isEmpty())
             singleplayerpage->setObjectName(QString::fromUtf8("singleplayerpage"));
-        singleplayerpage->resize(400, 300);
-        verticalLayoutWidget = new QWidget(singleplayerpage);
-        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(130, 210, 101, 61));
-        verticalLayout = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        StartGameBtn = new QPushButton(verticalLayoutWidget);
-        StartGameBtn->setObjectName(QString::fromUtf8("StartGameBtn"));
-
-        verticalLayout->addWidget(StartGameBtn);
-
-        singleplayerpageBackBtn = new QPushButton(verticalLayoutWidget);
-        singleplayerpageBackBtn->setObjectName(QString::fromUtf8("singleplayerpageBackBtn"));
-
-        verticalLayout->addWidget(singleplayerpageBackBtn);
-
+        singleplayerpage->resize(400, 450);
         playerdifficulty = new QLabel(singleplayerpage);
         playerdifficulty->setObjectName(QString::fromUtf8("playerdifficulty"));
-        playerdifficulty->setGeometry(QRect(81, 36, 161, 31));
-        horizontalLayoutWidget = new QWidget(singleplayerpage);
-        horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(20, 80, 321, 91));
-        horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        AIplayer = new QLabel(horizontalLayoutWidget);
-        AIplayer->setObjectName(QString::fromUtf8("AIplayer"));
-
-        horizontalLayout->addWidget(AIplayer);
-
-        DufficultySelect = new QComboBox(horizontalLayoutWidget);
+        playerdifficulty->setGeometry(QRect(115, 30, 170, 35));
+        QFont font;
+        font.setPointSize(14);
+        playerdifficulty->setFont(font);
+        playerdifficulty->setAlignment(Qt::AlignCenter);
+        DufficultySelect = new QComboBox(singleplayerpage);
         DufficultySelect->setObjectName(QString::fromUtf8("DufficultySelect"));
-
-        horizontalLayout->addWidget(DufficultySelect);
-
+        DufficultySelect->setGeometry(QRect(180, 122, 156, 24));
+        AIplayer = new QLabel(singleplayerpage);
+        AIplayer->setObjectName(QString::fromUtf8("AIplayer"));
+        AIplayer->setGeometry(QRect(40, 90, 320, 90));
+        StartGameBtn = new QPushButton(singleplayerpage);
+        StartGameBtn->setObjectName(QString::fromUtf8("StartGameBtn"));
+        StartGameBtn->setGeometry(QRect(150, 230, 100, 25));
+        singleplayerpageBackBtn = new QPushButton(singleplayerpage);
+        singleplayerpageBackBtn->setObjectName(QString::fromUtf8("singleplayerpageBackBtn"));
+        singleplayerpageBackBtn->setGeometry(QRect(150, 300, 100, 25));
+        playerdifficulty->raise();
+        AIplayer->raise();
+        StartGameBtn->raise();
+        singleplayerpageBackBtn->raise();
+        DufficultySelect->raise();
 
         retranslateUi(singleplayerpage);
 
@@ -81,11 +64,11 @@ public:
 
     void retranslateUi(QWidget *singleplayerpage)
     {
-        singleplayerpage->setWindowTitle(QCoreApplication::translate("singleplayerpage", "Form", nullptr));
-        StartGameBtn->setText(QCoreApplication::translate("singleplayerpage", "Start Game", nullptr));
-        singleplayerpageBackBtn->setText(QCoreApplication::translate("singleplayerpage", "Back", nullptr));
+        singleplayerpage->setWindowTitle(QCoreApplication::translate("singleplayerpage", "Uno", nullptr));
         playerdifficulty->setText(QCoreApplication::translate("singleplayerpage", "Player difficulty", nullptr));
         AIplayer->setText(QCoreApplication::translate("singleplayerpage", "AI Difficulty", nullptr));
+        StartGameBtn->setText(QCoreApplication::translate("singleplayerpage", "Start Game", nullptr));
+        singleplayerpageBackBtn->setText(QCoreApplication::translate("singleplayerpage", "Back", nullptr));
     } // retranslateUi
 
 };

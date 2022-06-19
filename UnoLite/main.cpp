@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
             QFile file(ScoreFile);
             if (file.open(QIODevice::ReadWrite)) {
                 QTextStream stream(&file);
-                CurrentScore = 0;
+                CurrentScore = "0";
                 stream << CurrentScore << Qt::endl;
             }
         }

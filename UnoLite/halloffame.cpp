@@ -8,7 +8,7 @@ halloffame::halloffame(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::halloffame)
 {
-    this->setFixedSize(400,450);
+    setWindowState(Qt::WindowMaximized);
     ui->setupUi(this);
     if(QFile::exists(HallOfFameFile))
     {

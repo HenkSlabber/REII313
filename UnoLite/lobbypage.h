@@ -2,6 +2,7 @@
 #define LOBBYPAGE_H
 
 #include <QWidget>
+#include <QtNetwork/QTcpSocket>
 
 namespace Ui {
 class lobbypage;
@@ -23,6 +24,7 @@ private slots:
 
 private:
     Ui::lobbypage *ui;
+
 };
 
 #endif // LOBBYPAGE_H

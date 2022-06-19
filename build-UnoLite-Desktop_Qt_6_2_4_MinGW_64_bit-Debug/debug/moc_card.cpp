@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../../../../Desktop/Ingenieurswese/4de Jaar/INGB 318/UnoLite/UnoLite/card.h"
+#include "../../UnoLite/card.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>

@@ -4,6 +4,7 @@
 #include <QWidget>
 #include "hostgamepage.h"
 #include "lobbypage.h"
+#include <QtNetwork/QTcpSocket>
 
 
 namespace Ui {
@@ -31,10 +32,14 @@ private slots:
 
     void on_MultiplayerPageBackBtn_clicked();
 
+    void displayError( QAbstractSocket::SocketError socketError );
+
 private:
     Ui::multiplayerpage *ui;
     hostgamepage *HostGamePage;
     lobbypage *LobbyPage;
+    QTcpSocket *clientSocket;
+
 };
 
 #endif // MULTIPLAYERPAGE_H

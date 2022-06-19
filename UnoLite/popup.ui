@@ -6,41 +6,44 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>269</width>
-    <height>131</height>
+    <width>300</width>
+    <height>130</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Uno</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>110</x>
      <y>10</y>
-     <width>71</width>
-     <height>16</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
    </property>
    <property name="text">
     <string>Player Name:</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QPlainTextEdit" name="EnterNameHere">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>30</y>
-     <width>161</width>
-     <height>31</height>
+     <x>75</x>
+     <y>40</y>
+     <width>150</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
   <widget class="QPushButton" name="SaveBtn">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>70</y>
+     <x>110</x>
+     <y>80</y>
      <width>80</width>
      <height>25</height>
     </rect>

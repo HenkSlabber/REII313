@@ -1,12 +1,14 @@
 #include "lobbypage.h"
 #include "ui_lobbypage.h"
+#include "GlobalVariables.h"
 
 lobbypage::lobbypage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::lobbypage)
 {
-    this->setFixedSize(400,450);
+    setWindowState(Qt::WindowMaximized);
     ui->setupUi(this);
+
 }
 
 lobbypage::~lobbypage()

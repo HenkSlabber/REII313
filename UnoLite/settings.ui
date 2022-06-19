@@ -7,66 +7,70 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>450</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Uno</string>
   </property>
-  <widget class="QWidget" name="verticalLayoutWidget">
+  <widget class="QPushButton" name="SettingspageBackBtn">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>30</y>
-     <width>201</width>
-     <height>181</height>
+     <x>150</x>
+     <y>350</y>
+     <width>100</width>
+     <height>25</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QPlainTextEdit" name="UpdateNameTextEdit"/>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <item>
-       <widget class="QLabel" name="YourNameIs_2">
-        <property name="text">
-         <string>Your Name Is:  </string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="CurrentName"/>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <widget class="QPushButton" name="UpdateNameBtn">
-      <property name="text">
-       <string>Update Name</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="text">
+    <string>Back</string>
+   </property>
   </widget>
-  <widget class="QWidget" name="gridLayoutWidget">
+  <widget class="QPushButton" name="UpdateNameBtn">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>220</y>
-     <width>101</width>
-     <height>41</height>
+     <x>100</x>
+     <y>280</y>
+     <width>200</width>
+     <height>25</height>
     </rect>
    </property>
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QPushButton" name="SettingspageBackBtn">
-      <property name="text">
-       <string>Back</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="text">
+    <string>Update Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="YourNameIs_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>95</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Your Name Is:  </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CurrentName">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>180</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="UpdateNameTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>280</width>
+     <height>170</height>
+    </rect>
+   </property>
   </widget>
  </widget>
  <resources/>

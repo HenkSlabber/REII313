@@ -43,7 +43,7 @@ public:
 
     void retranslateUi(QWidget *lobbypage)
     {
-        lobbypage->setWindowTitle(QCoreApplication::translate("lobbypage", "Form", nullptr));
+        lobbypage->setWindowTitle(QCoreApplication::translate("lobbypage", "Uno", nullptr));
         LeaveGameBtn->setText(QCoreApplication::translate("lobbypage", "Leave Game", nullptr));
     } // retranslateUi
 

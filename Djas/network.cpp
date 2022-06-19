@@ -14,12 +14,12 @@ network::network(QWidget *parent)
     receive_lbl = new QLabel(this);
     receive_lbl->move(50,50);
     receive_lbl->setFixedSize(200,600);
-    receive_lbl->setText(" ");
+    receive_lbl->setText("MotherFucker");
     receive_lbl->show();
 
     rsocket = new QUdpSocket;
-    rsocket->bind(QHostAddress::Any, 7755); //user 1
-    //rsocket->bind(QHostAddress::Any, 777); //user 2 connect to this socket
+    //rsocket->bind(QHostAddress::Any, 7755); //user 1
+    rsocket->bind(QHostAddress::Any, 777); //user 2 connect to this socket
 
     connect(rsocket, SIGNAL(readyRead()), this, SLOT(receivepacket()));
 }
@@ -45,8 +45,8 @@ void network::sendpacket()
 {
     QByteArray data = "hello";
 
-    rsocket->writeDatagram(data, QHostAddress::Broadcast, 777); //send to socket of user 2
-    //rsocket->writeDatagram(data, QHostAddress::Broadcast, 7755); //send to socket of user 1
+    //rsocket->writeDatagram(data, QHostAddress::Broadcast, 777); //send to socket of user 2
+    rsocket->writeDatagram(data, QHostAddress::Broadcast, 7755); //send to socket of user 1
 
 
 }

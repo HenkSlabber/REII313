@@ -43,7 +43,7 @@ public:
 
     void retranslateUi(QWidget *halloffame)
     {
-        halloffame->setWindowTitle(QCoreApplication::translate("halloffame", "Form", nullptr));
+        halloffame->setWindowTitle(QCoreApplication::translate("halloffame", "Uno", nullptr));
         HallOfFameBackBtn->setText(QCoreApplication::translate("halloffame", "back", nullptr));
     } // retranslateUi
 

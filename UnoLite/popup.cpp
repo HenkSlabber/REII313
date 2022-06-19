@@ -10,7 +10,7 @@ Popup::Popup(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Popup)
 {
-    this->setFixedSize(400,450);
+
     ui->setupUi(this);
 }
 

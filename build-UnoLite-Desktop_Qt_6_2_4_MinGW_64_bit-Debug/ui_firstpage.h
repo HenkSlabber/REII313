@@ -32,6 +32,12 @@ public:
         if (FirstPage->objectName().isEmpty())
             FirstPage->setObjectName(QString::fromUtf8("FirstPage"));
         FirstPage->resize(400, 450);
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(FirstPage->sizePolicy().hasHeightForWidth());
+        FirstPage->setSizePolicy(sizePolicy);
+        FirstPage->setMinimumSize(QSize(0, 0));
         SinglePlayerBtn = new QPushButton(FirstPage);
         SinglePlayerBtn->setObjectName(QString::fromUtf8("SinglePlayerBtn"));
         SinglePlayerBtn->setGeometry(QRect(135, 150, 130, 25));
@@ -50,9 +56,6 @@ public:
         label = new QLabel(FirstPage);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(100, 40, 200, 70));
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(label->sizePolicy().hasHeightForWidth());
         label->setSizePolicy(sizePolicy);
         QFont font;
@@ -67,7 +70,7 @@ public:
 
     void retranslateUi(QWidget *FirstPage)
     {
-        FirstPage->setWindowTitle(QCoreApplication::translate("FirstPage", "Form", nullptr));
+        FirstPage->setWindowTitle(QCoreApplication::translate("FirstPage", "Uno", nullptr));
         SinglePlayerBtn->setText(QCoreApplication::translate("FirstPage", "Single player", nullptr));
         MultiplayerBtn->setText(QCoreApplication::translate("FirstPage", "Multiplayer", nullptr));
         HallOfFameBtn->setText(QCoreApplication::translate("FirstPage", "Hall of fame", nullptr));

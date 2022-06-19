@@ -2,6 +2,9 @@
 #define HOSTGAMEPAGE_H
 
 #include <QWidget>
+#include <QtNetwork/QTcpServer>
+#include <QtNetwork/QTcpSocket>
+#include "MultiplayerGame.h"
 
 namespace Ui {
 class hostgamepage;
@@ -21,8 +24,18 @@ signals:
 private slots:
     void on_HostagamepageBackBtn_clicked();
 
+    void on_startMultiplayerGameBtn_clicked();
+
+    void NewConnection(int socketfd);
+
+    void readyRead();
+
+    void disconnected();
+
 private:
     Ui::hostgamepage *ui;
+    QSet<QTcpSocket*> clients;
+    MultiplayerGame *MultiplayerGame;
 };
 
 #endif // HOSTGAMEPAGE_H

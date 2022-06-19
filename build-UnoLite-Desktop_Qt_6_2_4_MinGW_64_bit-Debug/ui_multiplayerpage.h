@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -20,8 +19,6 @@ QT_BEGIN_NAMESPACE
 class Ui_multiplayerpage
 {
 public:
-    QWidget *verticalLayoutWidget;
-    QVBoxLayout *verticalLayout;
     QPushButton *HostBtn;
     QPushButton *ConnectBtn;
     QPushButton *MultiplayerPageBackBtn;
@@ -30,28 +27,16 @@ public:
     {
         if (multiplayerpage->objectName().isEmpty())
             multiplayerpage->setObjectName(QString::fromUtf8("multiplayerpage"));
-        multiplayerpage->resize(400, 300);
-        verticalLayoutWidget = new QWidget(multiplayerpage);
-        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(70, 30, 221, 221));
-        verticalLayout = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        HostBtn = new QPushButton(verticalLayoutWidget);
+        multiplayerpage->resize(400, 450);
+        HostBtn = new QPushButton(multiplayerpage);
         HostBtn->setObjectName(QString::fromUtf8("HostBtn"));
-
-        verticalLayout->addWidget(HostBtn);
-
-        ConnectBtn = new QPushButton(verticalLayoutWidget);
+        HostBtn->setGeometry(QRect(135, 70, 130, 25));
+        ConnectBtn = new QPushButton(multiplayerpage);
         ConnectBtn->setObjectName(QString::fromUtf8("ConnectBtn"));
-
-        verticalLayout->addWidget(ConnectBtn);
-
-        MultiplayerPageBackBtn = new QPushButton(verticalLayoutWidget);
+        ConnectBtn->setGeometry(QRect(135, 120, 130, 25));
+        MultiplayerPageBackBtn = new QPushButton(multiplayerpage);
         MultiplayerPageBackBtn->setObjectName(QString::fromUtf8("MultiplayerPageBackBtn"));
-
-        verticalLayout->addWidget(MultiplayerPageBackBtn);
-
+        MultiplayerPageBackBtn->setGeometry(QRect(135, 300, 130, 25));
 
         retranslateUi(multiplayerpage);
 
@@ -60,7 +45,7 @@ public:
 
     void retranslateUi(QWidget *multiplayerpage)
     {
-        multiplayerpage->setWindowTitle(QCoreApplication::translate("multiplayerpage", "Form", nullptr));
+        multiplayerpage->setWindowTitle(QCoreApplication::translate("multiplayerpage", "Uno", nullptr));
         HostBtn->setText(QCoreApplication::translate("multiplayerpage", "Host a game", nullptr));
         ConnectBtn->setText(QCoreApplication::translate("multiplayerpage", "Connect to a game", nullptr));
         MultiplayerPageBackBtn->setText(QCoreApplication::translate("multiplayerpage", "Back", nullptr));

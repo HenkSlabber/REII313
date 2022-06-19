@@ -7,11 +7,9 @@ settings::settings(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::settings)
 {
-    this->setFixedSize(400,450);
-
     ui->setupUi(this);
+    setWindowState(Qt::WindowMaximized);
     ui->CurrentName->setText(PlayerName);
-    ui->setupUi(this);
 
 }
 
@@ -38,6 +36,7 @@ void settings::on_UpdateNameBtn_clicked()
     if (file.open(QIODevice::ReadWrite)) {
         QTextStream stream(&file);
         stream << PlayerName << Qt::endl;
+        return;
     }
     //Use slot to get back to previous page
     emit BackButtonPressed();
