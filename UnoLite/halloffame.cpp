@@ -8,22 +8,43 @@ halloffame::halloffame(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::halloffame)
 {
-    setWindowState(Qt::WindowMaximized);
-    ui->setupUi(this);
-    if(QFile::exists(HallOfFameFile))
-    {
-        QFile file(HallOfFameFile);
-        file.open(QIODevice::ReadWrite | QIODevice::Text);
-        HallOfFameData=file.readAll();
+    listWdiget->clear();
 
-    }else{
-        QFile file(HallOfFameFile);
-        if (file.open(QIODevice::ReadWrite)) {
-            QTextStream stream(&file);
-            HallOfFameData = PlayerName + " ," + CurrentScore + "\n";
-            stream << HallOfFameData << Qt::endl;
+    QFile* filename = new QFile(":/PlayerName.txt");
+    QFile* fileScore = new QFile(":/ScoreFile.txt");
+
+    if(!filename->open(QIODevice::ReadOnly))
+    {
+        if(!fileScore->open(QIODevice::ReadOnly))
+        {
+            return;
         }
+
     }
+        QString name = filename->readLine();
+        Score = fileScore->readLine();
+        listWdiget->addItem(name+" " +Score);
+
+    filename->close();
+    fileScore->close();
+
+    //Skuif code...
+//    setWindowState(Qt::WindowMaximized);
+//    ui->setupUi(this);
+//    if(QFile::exists(HallOfFameFile))
+//    {
+//        QFile file(HallOfFameFile);
+//        file.open(QIODevice::ReadWrite | QIODevice::Text);
+//        HallOfFameData=file.readAll();
+
+//    }else{
+//        QFile file(HallOfFameFile);
+//        if (file.open(QIODevice::ReadWrite)) {
+//            QTextStream stream(&file);
+//            HallOfFameData = PlayerName + " ," + CurrentScore + "\n";
+//            stream << HallOfFameData << Qt::endl;
+//        }
+//    }
 
 }
 
@@ -39,3 +60,9 @@ void halloffame::on_HallOfFameBackBtn_clicked()
     //close current page
     this->close();
 }
+
+//void halloffame::on_listWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous)
+//{
+
+//}
+

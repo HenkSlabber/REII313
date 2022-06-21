@@ -11,9 +11,8 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QListWidget>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QTableWidget>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -21,20 +20,20 @@ QT_BEGIN_NAMESPACE
 class Ui_halloffame
 {
 public:
-    QTableWidget *HallofFameTable;
     QPushButton *HallOfFameBackBtn;
+    QListWidget *listWidget;
 
     void setupUi(QWidget *halloffame)
     {
         if (halloffame->objectName().isEmpty())
             halloffame->setObjectName(QString::fromUtf8("halloffame"));
         halloffame->resize(400, 450);
-        HallofFameTable = new QTableWidget(halloffame);
-        HallofFameTable->setObjectName(QString::fromUtf8("HallofFameTable"));
-        HallofFameTable->setGeometry(QRect(30, 70, 340, 250));
         HallOfFameBackBtn = new QPushButton(halloffame);
         HallOfFameBackBtn->setObjectName(QString::fromUtf8("HallOfFameBackBtn"));
         HallOfFameBackBtn->setGeometry(QRect(135, 350, 119, 24));
+        listWidget = new QListWidget(halloffame);
+        listWidget->setObjectName(QString::fromUtf8("listWidget"));
+        listWidget->setGeometry(QRect(40, 40, 311, 271));
 
         retranslateUi(halloffame);
 

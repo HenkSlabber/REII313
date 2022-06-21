@@ -5,6 +5,7 @@
 #include <QtNetwork/QTcpServer>
 #include <QtNetwork/QTcpSocket>
 #include "MultiplayerGame.h"
+#include <QTimer>
 
 namespace Ui {
 class hostgamepage;
@@ -35,7 +36,8 @@ private slots:
 private:
     Ui::hostgamepage *ui;
     QSet<QTcpSocket*> clients;
-    MultiplayerGame *MultiplayerGame;
+    MultiplayerGame* MultiplayerGame;
+
 };
 
 #endif // HOSTGAMEPAGE_H

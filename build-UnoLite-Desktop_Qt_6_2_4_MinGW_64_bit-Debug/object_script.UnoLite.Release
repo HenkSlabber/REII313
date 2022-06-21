@@ -1,3 +1,4 @@
+release/MultiplayerGame.o
 release/card.o
 release/firstpage.o
 release/halloffame.o
@@ -10,6 +11,7 @@ release/settings.o
 release/singleplayerpage.o
 release/unoliteDufficulty1.o
 release/unoliteDufficulty2.o
+release/moc_MultiplayerGame.o
 release/moc_card.o
 release/moc_firstpage.o
 release/moc_halloffame.o

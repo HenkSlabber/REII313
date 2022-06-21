@@ -39,6 +39,7 @@ private:
     multiplayerpage *MultiPlayerPage;
     halloffame *HallOfFame;
     settings *Settings;
+
 };
 
 #endif // FIRSTPAGE_H

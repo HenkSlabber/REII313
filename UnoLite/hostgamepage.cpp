@@ -9,6 +9,10 @@ hostgamepage::hostgamepage(QWidget *parent) :
 {
     setWindowState(Qt::WindowMaximized);
     ui->setupUi(this);
+
+    QTimer *t = new QTimer(this);
+    connect(t, SIGNAL(timeout()), this, SLOT(readyRead()));
+    t->start(20);
 }
 
 hostgamepage::~hostgamepage()
@@ -49,9 +53,9 @@ void hostgamepage::NewConnection(int socketfd){
     connect(client, SIGNAL(readyRead()), this,SLOT(readyRead()));
     connect(client, SIGNAL(disconnected()), this,SLOT(disconnected()));
 
-    multiplayergame = new MultiplayerGame;
-    multiplayergame->setWindowState(Qt::WindowMaximized);
-    multiplayergame->show();
+    MultiplayerGame = new class MultiplayerGame;
+    MultiplayerGame->setWindowState(Qt::WindowMaximized);
+    MultiplayerGame->show();
 
     this->close();
 

@@ -5,6 +5,7 @@
 #include "card.h"
 #include <QList>
 #include <QLabel>
+#include <QString>
 
 class MultiplayerGame : public QMainWindow
 {
@@ -33,6 +34,7 @@ private:
     QLabel *winLabel;
     QLabel *loseLabel;
     static const bool debugView = false;
+    QString Score = 0;
 
     Colour calc4Colour();
 

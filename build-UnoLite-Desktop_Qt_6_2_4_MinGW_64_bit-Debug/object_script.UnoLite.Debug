@@ -1,3 +1,4 @@
+debug/MultiplayerGame.o
 debug/card.o
 debug/firstpage.o
 debug/halloffame.o
@@ -10,6 +11,7 @@ debug/settings.o
 debug/singleplayerpage.o
 debug/unoliteDufficulty1.o
 debug/unoliteDufficulty2.o
+debug/moc_MultiplayerGame.o
 debug/moc_card.o
 debug/moc_firstpage.o
 debug/moc_halloffame.o

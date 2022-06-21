@@ -2,6 +2,7 @@
 #include "ui_singleplayerpage.h"
 #include "unoliteDufficulty1.h"
 #include "unoliteDufficulty2.h"
+#include <QFile>
 
 singleplayerpage::singleplayerpage(QWidget *parent) :
     QWidget(parent),
@@ -48,3 +49,4 @@ void singleplayerpage::on_StartGameBtn_clicked()
     //close current page
     this->close();
 }
+

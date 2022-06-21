@@ -1,6 +1,9 @@
 #include "MultiplayerGame.h"
+#include "halloffame.h"
 #include <QRandomGenerator>
 #include <QTimer>
+#include <QMessageBox>
+#include <Qfile>
 
 MultiplayerGame::MultiplayerGame(QWidget *parent)
     : QMainWindow(parent)
@@ -317,6 +320,29 @@ void MultiplayerGame::cardClick(Card *c)
         {
             winLabel->raise();
             winLabel->show();
+
+            QFile* fileScore = new QFile(":/ScoreFile.txt");
+
+            if(!fileScore->open(QIODevice::ReadOnly))
+            {
+                return;
+            }
+            Score = fileScore->readLine();
+            int num = Score.toInt();
+            num++;
+            Score = QString::number(num);
+            fileScore->close();
+
+            QFile* fileupdate = new QFile(":/ScoreFile.txt");
+            if(!fileupdate->open(QIODevice::WriteOnly))
+            {
+                return;
+            }
+
+            fileupdate->write(Score);
+            fileupdate->flush();
+            fileupdate->close();
+
         }
         else if (computerHand.length() == 0)
         {

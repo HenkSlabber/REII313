@@ -4,6 +4,8 @@
 #include <QWidget>
 #include "unoliteDufficulty1.h"
 #include "unoliteDufficulty2.h"
+#include <QPushButton>
+#include <QLineEdit>
 
 namespace Ui {
 class singleplayerpage;
@@ -25,6 +27,8 @@ private slots:
     void on_singleplayerpageBackBtn_clicked();
 
     void on_StartGameBtn_clicked();
+
+    void submit();
 
 private:
     Ui::singleplayerpage *ui;
