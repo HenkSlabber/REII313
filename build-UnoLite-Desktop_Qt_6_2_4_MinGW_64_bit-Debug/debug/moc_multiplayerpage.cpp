@@ -23,8 +23,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_multiplayerpage_t {
-    const uint offsetsAndSize[20];
-    char stringdata0[182];
+    const uint offsetsAndSize[14];
+    char stringdata0[128];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_multiplayerpage_t, stringdata0) + ofs), len 
@@ -36,18 +36,13 @@ QT_MOC_LITERAL(34, 0), // ""
 QT_MOC_LITERAL(35, 17), // "backbuttonpressed"
 QT_MOC_LITERAL(53, 18), // "on_HostBtn_clicked"
 QT_MOC_LITERAL(72, 21), // "on_ConnectBtn_clicked"
-QT_MOC_LITERAL(94, 33), // "on_MultiplayerPageBackBtn_cli..."
-QT_MOC_LITERAL(128, 12), // "displayError"
-QT_MOC_LITERAL(141, 28), // "QAbstractSocket::SocketError"
-QT_MOC_LITERAL(170, 11) // "socketError"
+QT_MOC_LITERAL(94, 33) // "on_MultiplayerPageBackBtn_cli..."
 
     },
     "multiplayerpage\0BackButtonPressed\0\0"
     "backbuttonpressed\0on_HostBtn_clicked\0"
     "on_ConnectBtn_clicked\0"
-    "on_MultiplayerPageBackBtn_clicked\0"
-    "displayError\0QAbstractSocket::SocketError\0"
-    "socketError"
+    "on_MultiplayerPageBackBtn_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -57,7 +52,7 @@ static const uint qt_meta_data_multiplayerpage[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -65,14 +60,13 @@ static const uint qt_meta_data_multiplayerpage[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   50,    2, 0x06,    1 /* Public */,
+       1,    0,   44,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   51,    2, 0x0a,    2 /* Public */,
-       4,    0,   52,    2, 0x08,    3 /* Private */,
-       5,    0,   53,    2, 0x08,    4 /* Private */,
-       6,    0,   54,    2, 0x08,    5 /* Private */,
-       7,    1,   55,    2, 0x08,    6 /* Private */,
+       3,    0,   45,    2, 0x0a,    2 /* Public */,
+       4,    0,   46,    2, 0x08,    3 /* Private */,
+       5,    0,   47,    2, 0x08,    4 /* Private */,
+       6,    0,   48,    2, 0x08,    5 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
@@ -82,7 +76,6 @@ static const uint qt_meta_data_multiplayerpage[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 8,    9,
 
        0        // eod
 };
@@ -94,23 +87,11 @@ void multiplayerpage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         (void)_t;
         switch (_id) {
         case 0: _t->BackButtonPressed(); break;
-        case 1: _t->backbuttonpressed(); break;
+        //case 1: _t->backbuttonpressed(); break;
         case 2: _t->on_HostBtn_clicked(); break;
         case 3: _t->on_ConnectBtn_clicked(); break;
         case 4: _t->on_MultiplayerPageBackBtn_clicked(); break;
-        case 5: _t->displayError((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
         default: ;
-        }
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        switch (_id) {
-        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 5:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-            case 0:
-                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QAbstractSocket::SocketError >(); break;
-            }
-            break;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
@@ -122,6 +103,7 @@ void multiplayerpage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
             }
         }
     }
+    (void)_a;
 }
 
 const QMetaObject multiplayerpage::staticMetaObject = { {
@@ -132,7 +114,7 @@ const QMetaObject multiplayerpage::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_multiplayerpage_t
 , QtPrivate::TypeAndForceComplete<multiplayerpage, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketError, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
 
 
 >,
@@ -159,13 +141,13 @@ int multiplayerpage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
-            qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        if (_id < 5)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 5;
     }
     return _id;
 }

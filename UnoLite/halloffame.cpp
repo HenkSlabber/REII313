@@ -8,25 +8,26 @@ halloffame::halloffame(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::halloffame)
 {
-    listWdiget->clear();
+    ui->setupUi(this);
+//    listWdiget->clear();
 
-    QFile* filename = new QFile(":/PlayerName.txt");
-    QFile* fileScore = new QFile(":/ScoreFile.txt");
+//    QFile* filename = new QFile(":/PlayerName.txt");
+//    QFile* fileScore = new QFile(":/ScoreFile.txt");
 
-    if(!filename->open(QIODevice::ReadOnly))
-    {
-        if(!fileScore->open(QIODevice::ReadOnly))
-        {
-            return;
-        }
+//    if(!filename->open(QIODevice::ReadOnly))
+//    {
+//        if(!fileScore->open(QIODevice::ReadOnly))
+//        {
+//            return;
+//        }
 
-    }
-        QString name = filename->readLine();
-        Score = fileScore->readLine();
-        listWdiget->addItem(name+" " +Score);
+//    }
+//        QString name = filename->readLine();
+//        Score = fileScore->readLine();
+//        listWdiget->addItem(name+" " +Score);
 
-    filename->close();
-    fileScore->close();
+//    filename->close();
+//    fileScore->close();
 
     //Skuif code...
 //    setWindowState(Qt::WindowMaximized);

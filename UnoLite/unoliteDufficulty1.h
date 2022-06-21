@@ -5,6 +5,7 @@
 #include "card.h"
 #include <QList>
 #include <QLabel>
+#include <QPushButton>
 
 class UnoLiteDufficulty1 : public QMainWindow
 {
@@ -27,6 +28,7 @@ private:
     QList<Card*> stack;
     QList<Card*> computerHand;
     QList<Card*> playerHand;
+//    QPushButton *b1 = new QPushButton(this);
     bool mustPickUp;
     bool computerMustPickUp;
     QLabel *debugLabel;
@@ -39,6 +41,7 @@ private:
 private slots:
     void cardClick(Card*);
     void computerMove();
+//    void b1f();
 
 };
 

@@ -24,6 +24,12 @@ UnoLiteDufficulty1::UnoLiteDufficulty1(QWidget *parent)
     loseLabel->setText("Computer Wins");
     loseLabel->hide();
 
+//    b1->setText("Quit Game");
+//    connect(b1, SIGNAL(clicked()), this, SLOT(b1f()));
+//    b1->setGeometry(160,200,100, 25);
+//    b1->setStyleSheet("font-size: 15px;");
+//    b1->show();
+
     mustPickUp = false;
     computerMustPickUp = false;
     initCards();
@@ -456,3 +462,11 @@ void UnoLiteDufficulty1::debug(QString s)
 {
     debugLabel->setText(s + "\n" + debugLabel->text());
 }
+
+//void UnoLiteDufficulty1::b1f()
+//{
+//    //Use slot to get back to previous page
+//    emit b1();
+//    //close current page
+//    this->close();
+//}

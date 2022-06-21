@@ -85,6 +85,7 @@ void singleplayerpage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         case 0: _t->BackButtonPressed(); break;
         case 1: _t->on_singleplayerpageBackBtn_clicked(); break;
         case 2: _t->on_StartGameBtn_clicked(); break;
+        //case 3: _t->submit(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {

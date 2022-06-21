@@ -32,13 +32,13 @@ private slots:
 
     void on_MultiplayerPageBackBtn_clicked();
 
-    void displayError( QAbstractSocket::SocketError socketError );
+//    void displayError( QAbstractSocket::SocketError socketError );
 
 private:
     Ui::multiplayerpage *ui;
     hostgamepage *HostGamePage;
     lobbypage *LobbyPage;
-    QTcpSocket *clientSocket;
+//    QTcpSocket *clientSocket;
 
 };
 

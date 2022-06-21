@@ -339,7 +339,7 @@ void MultiplayerGame::cardClick(Card *c)
                 return;
             }
 
-            fileupdate->write(Score);
+//            fileupdate->write(Score);
             fileupdate->flush();
             fileupdate->close();
 

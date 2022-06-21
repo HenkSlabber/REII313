@@ -25,18 +25,18 @@ signals:
 private slots:
     void on_HostagamepageBackBtn_clicked();
 
-    void on_startMultiplayerGameBtn_clicked();
+//    void on_startMultiplayerGameBtn_clicked();
 
-    void NewConnection(int socketfd);
+//    void NewConnection(int socketfd);
 
-    void readyRead();
+//    void readyRead();
 
-    void disconnected();
+//    void disconnected();
 
 private:
     Ui::hostgamepage *ui;
-    QSet<QTcpSocket*> clients;
-    MultiplayerGame* MultiplayerGame;
+//    QSet<QTcpSocket*> clients;
+//    MultiplayerGame* MultiplayerGame;
 
 };
 
